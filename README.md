@@ -10,6 +10,13 @@ only**. Source is maintained in a private repository. Each supported
 board has its own folder with hardware details, firmware releases, and
 setup instructions - features and firmware are independent per board.
 
+## Why "stajPilot"
+
+"Staj" is a stylized spelling of "Stage" - same pronunciation, just
+written differently. "Pilot" is about what you're actually doing with
+it: sitting in front of the touchscreen, actively flying your rig
+through a set in real time - not just a passive display.
+
 ## Supported hardware
 
 | Board | Screen | Status |
