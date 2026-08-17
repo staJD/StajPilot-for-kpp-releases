@@ -1,9 +1,11 @@
 # StajPilot
 
-Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig navigation,
-tap tempo, tuner, per-slot effect status with live icon reveal
-animations, amp art, and a WiFi-based song/setlist config page you run
-from your phone.
+Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig
+navigation, tap tempo, tuner, per-slot effect status with live icon
+reveal animations, amp art, and **Song Mode** - a custom setlist layer
+StajPilot adds on top of the Player's native bank/slot structure (which
+has no song/setlist concept of its own), configured from a WiFi page you
+run from your phone.
 
 This repository hosts **compiled firmware releases and documentation
 only**. Source is maintained in a private repository. Each supported

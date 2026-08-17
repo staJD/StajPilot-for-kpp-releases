@@ -14,9 +14,12 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 - Live effect on/off display per slot, with animated reveal icons
   (togglable if you'd rather save CPU)
 - Amp art display, loaded from a microSD card
-- Song/setlist config via a WiFi page the device hosts itself - map
-  songs to bank/slot/sub-label/amp-art-file per bank, no need to touch
-  the device's own screen to edit your setlist
+- **Song Mode** - the Kemper Profiler Player has no concept of songs or
+  setlists on its own, only banks/slots. StajPilot adds a Song Mode on
+  top of that: a WiFi config page lets you label each bank/slot with a
+  song name, sub-label, and amp art file, so the same bank/slot
+  navigation you already use effectively becomes setlist navigation -
+  no need to touch the device's own screen to edit it
 - Bluetooth MIDI support for wireless foot controllers - tested with 3x
   M-VAVE Chocolate pedals connected simultaneously, up to 5 supported
 
@@ -78,9 +81,13 @@ Mac, `COM*` on Windows).
 - microSD card slot for amp art images (optional - the device works
   without one)
 
-## Song/setlist config
+## Song Mode config
 
-Turn on WiFi config mode from the device's Settings screen, connect
-your phone to the `StajPilot` WiFi network it broadcasts, then open
-`192.168.4.1` in a browser. From there you can set song names, per-slot
-labels, and which amp art file to show for each bank.
+The Kemper Profiler Player only knows about banks and slots - Song Mode
+is StajPilot's own addition, letting you label that same bank/slot
+structure by song instead. Turn on WiFi config mode from the device's
+Settings screen, connect your phone to the `StajPilot` WiFi network it
+broadcasts, then open `192.168.4.1` in a browser. From there you can set
+song names, per-slot labels, and which amp art file to show for each
+bank - your existing bank/slot navigation then doubles as setlist
+navigation.
