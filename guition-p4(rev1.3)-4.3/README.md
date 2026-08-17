@@ -5,7 +5,7 @@
 Touchscreen MIDI controller for the Kemper Profiler Player, built on an
 ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W, 4.3" 800×480 touch LCD).
 
-Built and tested specifically for the Kemper Profiler **Player** - not
+Currently only tested against the Kemper Profiler **Player** - not
 verified against the other Profiler models (Stage, PowerHead, Rack).
 
 ## Features
