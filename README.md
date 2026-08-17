@@ -37,7 +37,8 @@ traffic while in bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
 whole MIDI layer is built around stability and keeping load on the
-Kemper's own system low, rather than maximizing data freshness.
+Kemper's own system low - the streamed data itself stays real-time,
+this is about not piling extra requests on top of it.
 
 ## License
 
