@@ -23,13 +23,14 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 ## Getting the firmware
 
 Grab the latest release for this board from the
-[Releases](../../../releases) page (tagged `p4-vX.XX`). Each release
+[Releases](../../../releases) page (tagged
+`VX.XX.XX_stajPilot(JC4880P443C_I_W)`). Each release
 includes:
 
-- `stajpilot_vX.XX_update_firmware.bin` — app-only update. Use this if
+- `stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin` — app-only update. Use this if
   you already have a working install and just want the new version -
   keeps your song list, WiFi settings, and other saved config.
-- `stajpilot_vX.XX_factory_merged.bin` — full image (bootloader +
+- `stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin` — full image (bootloader +
   partition table + app). Use this only for a first install or a full
   recovery - **this wipes saved song/WiFi config.**
 
@@ -44,14 +45,14 @@ Needs [esptool](https://github.com/espressif/esptool)
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_vX.XX_update_firmware.bin
+  write_flash 0x10000 stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin
 ```
 
 **Factory install / recovery** (first install, or full reset):
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_vX.XX_factory_merged.bin
+  write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
 ```
 
 `<PORT>` is the device's USB serial port (e.g. `/dev/cu.usbmodem*` on

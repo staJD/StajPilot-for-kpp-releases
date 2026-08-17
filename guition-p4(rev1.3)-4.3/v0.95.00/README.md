@@ -216,9 +216,9 @@ source, a public repo for distributable `.bin` files + manuals only.
 
 ## Files
 
-- `stajpilot_v0.95_update_firmware.bin` — app only, for a normal update on
+- `stajpilot_v0.95.00_JC4880P443C_I_W_update_firmware.bin` — app only, for a normal update on
   an existing device.
-- `stajpilot_v0.95_factory_merged.bin` — bootloader + partition table +
+- `stajpilot_v0.95.00_JC4880P443C_I_W_factory_merged.bin` — bootloader + partition table +
   app, for a first install or recovery.
 - `source/` — full source snapshot (see above).
 
@@ -226,7 +226,7 @@ source, a public repo for distributable `.bin` files + manuals only.
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.95_update_firmware.bin
+  write_flash 0x10000 stajpilot_v0.95.00_JC4880P443C_I_W_update_firmware.bin
 ```
 
 Flash offset `0x10000`. Does not write the partition table, does not
@@ -236,7 +236,7 @@ format SPIFFS/NVS.
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.95_factory_merged.bin
+  write_flash 0x0 stajpilot_v0.95.00_JC4880P443C_I_W_factory_merged.bin
 ```
 
 Flash offset `0x0`. Bootloader at `0x2000`, partition table at `0x8000`,
