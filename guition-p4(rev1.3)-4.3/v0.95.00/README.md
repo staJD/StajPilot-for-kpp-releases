@@ -17,6 +17,12 @@
 - **More robust against a missing/misformatted SD card** — verified the
   device falls back cleanly with no crash if the card is absent or a
   file doesn't match the expected image format.
+- **Fixed an audible backlight whine** — the screen's backlight dimming
+  circuit was switching at 5kHz, right in the middle of audible range.
+  Raised to 25kHz (above what people can hear). Brightness control
+  itself is unchanged. This may also reduce noise picked up through
+  your audio signal chain when the device is connected alongside other
+  gear.
 
 ## Known limitation
 
