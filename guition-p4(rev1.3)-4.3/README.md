@@ -17,7 +17,8 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 - Song/setlist config via a WiFi page the device hosts itself - map
   songs to bank/slot/sub-label/amp-art-file per bank, no need to touch
   the device's own screen to edit your setlist
-- Bluetooth MIDI support for wireless foot controllers
+- Bluetooth MIDI support for wireless foot controllers - tested with 3x
+  M-VAVE Chocolate pedals connected simultaneously, up to 5 supported
 
 ## Getting the firmware
 
