@@ -87,8 +87,10 @@ Mac, `COM*` on Windows).
 The Kemper Profiler Player only knows about banks and slots - Song Mode
 is StajPilot's own addition, letting you label that same bank/slot
 structure by song instead. Turn on WiFi config mode from the device's
-Settings screen, connect your phone to the `StajPilot` WiFi network it
-broadcasts, then open `192.168.4.1` in a browser. From there you can set
+Settings screen, connect your phone or computer to the `StajPilot` WiFi
+network it broadcasts, then open `192.168.4.1` in a web browser - a
+computer's keyboard makes it a lot faster if you're entering a lot of
+songs at once. From there you can set
 song names, per-slot labels, and which amp art file to show for each
 bank - your existing bank/slot navigation then also shows that song
 info. There's no separate, reorderable setlist - it's just a label on

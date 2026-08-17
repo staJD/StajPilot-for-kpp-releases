@@ -5,7 +5,7 @@ navigation, tap tempo, tuner, per-slot effect status with live icon
 reveal animations, amp art, and **Song Mode** - StajPilot's own addition
 for labeling the Player's native bank/slot structure by song (the Player
 has no song concept of its own, just banks/slots), configured from a
-WiFi page you run from your phone.
+WiFi page you access from your phone or computer.
 
 This repository hosts **compiled firmware releases and documentation
 only**. Source is maintained in a private repository. Each supported
