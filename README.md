@@ -43,7 +43,25 @@ Kemper's own system low - the streamed data itself stays real-time,
 this is about not piling extra requests on top of it.
 
 ## License
+This software (including any distributed binaries, the "Software") is licensed under the following terms.
 
+1. **Personal / Non-Commercial Use**
+   Personal, non-commercial use — including downloading, installing, and running the Software — is
+   permitted free of charge without prior permission.
+
+2. **Commercial Use**
+   Any commercial use, including but not limited to use by a company or organization, redistribution,
+   or incorporation into a commercial product, requires prior written consent from the author.
+   Please contact [email/contact] before commercial use.
+
+3. **Restrictions**
+   Selling, redistributing, or embedding the Software for commercial purposes without prior written
+   consent from the author is prohibited.
+
+4. **Disclaimer**
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
+   SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF
+   THE SOFTWARE.
 <!-- fill in: MIT / no reuse / etc. -->
 
 ## Issues / feedback
