@@ -47,21 +47,39 @@ This software (including any distributed binaries, the "Software") is licensed u
 
 1. **Personal / Non-Commercial Use**
    Personal, non-commercial use — including downloading, installing, and running the Software — is
-   permitted free of charge without prior permission.
+   permitted freely without prior permission. Connecting the hardware to other devices or
+   customizing it for your own personal use is also freely permitted without prior permission.
+   (Selling or distributing such customized hardware, however, is subject to Section 3 below.)
 
 2. **Commercial Use**
    Any commercial use, including but not limited to use by a company or organization, redistribution,
-   or incorporation into a commercial product, requires prior written consent from the author.
-   Please contact [email/contact] before commercial use.
+   or incorporation into a commercial product, should be discussed with the author in advance.
 
-3. **Restrictions**
-   Selling, redistributing, or embedding the Software for commercial purposes without prior written
-   consent from the author is prohibited.
+3. **Prohibition on Hardware Productization (Strictly Enforced)**
+   Regardless of whether the activity is otherwise commercial, the following acts require the
+   author's prior consent:
+
+   a. Uploading the Software (including the distributed binary) onto hardware and selling,
+      distributing, or otherwise commercializing that hardware as a finished or semi-finished
+      product.
+
+   b. Combining hardware running the Software with any additional device (including but not
+      limited to enclosures, circuits, sensors, or accessories) into a single product, and selling,
+      distributing, or otherwise commercializing that combined product.
+
+   c. Performing, outsourcing, or commissioning (including OEM/ODM arrangements) any of the acts
+      described in (a) or (b) above.
+
+   The above acts are considered "commercial use" under this license regardless of whether sold
+   for profit or provided free of charge, or offered as a finished product or a kit, and should be
+   discussed with the author in advance.
 
 4. **Disclaimer**
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
    SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF
    THE SOFTWARE.
+
+Contact: Please open a GitHub Issue, and we'll proceed with further discussion from there.
 <!-- fill in: MIT / no reuse / etc. -->
 
 ## Issues / feedback
