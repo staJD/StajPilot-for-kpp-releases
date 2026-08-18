@@ -45,6 +45,8 @@ this is about not piling extra requests on top of it.
 ## License
 This software (including any distributed binaries, the "Software") is licensed under the following terms.
 
+## Terms of Use
+
 1. **Personal / Non-Commercial Use**
    Personal, non-commercial use — including downloading, installing, and running the Software — is
    permitted freely without prior permission. Connecting the hardware to other devices or
@@ -70,18 +72,17 @@ This software (including any distributed binaries, the "Software") is licensed u
    c. Performing, outsourcing, or commissioning (including OEM/ODM arrangements) any of the acts
       described in (a) or (b) above.
 
-   The above acts are considered "commercial use" under this license regardless of whether sold
-   for profit or provided free of charge, or offered as a finished product or a kit, and should be
-   discussed with the author in advance.
+   The above acts are considered "commercial use" under this license and should be discussed with
+   the author in advance.
 
-4. **Disclaimer**
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
-   SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF
-   THE SOFTWARE.
+## Disclaimer
 
-Contact: Please open a GitHub Issue, and we'll proceed with further discussion from there.
-<!-- fill in: MIT / no reuse / etc. -->
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. UNDER NO
+CIRCUMSTANCES SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES (INCLUDING BUT NOT LIMITED TO
+DIRECT, INDIRECT, OR INCIDENTAL DAMAGES), OR OTHER LIABILITY ARISING FROM THE USE, INSTALLATION,
+OR MODIFICATION OF THE SOFTWARE, OR FROM THE MANUFACTURE OR USE OF ANY HARDWARE INCORPORATING IT.
 
-## Issues / feedback
+## Contact
 
+Please open a GitHub Issue, and we'll proceed with further discussion from there.
 <!-- fill in once the repo exists, e.g. link to Issues tab -->
