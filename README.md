@@ -45,8 +45,6 @@ this is about not piling extra requests on top of it.
 ## License
 This software (including any distributed binaries, the "Software") is licensed under the following terms.
 
-## Terms of Use
-
 1. **Personal / Non-Commercial Use**
    Personal, non-commercial use — including downloading, installing, and running the Software — is
    permitted freely without prior permission. Connecting the hardware to other devices or
@@ -57,7 +55,7 @@ This software (including any distributed binaries, the "Software") is licensed u
    Any commercial use, including but not limited to use by a company or organization, redistribution,
    or incorporation into a commercial product, should be discussed with the author in advance.
 
-3. **Prohibition on Hardware Productization (Strictly Enforced)**
+3. **Prohibition on Hardware Productization **
    Regardless of whether the activity is otherwise commercial, the following acts require the
    author's prior consent:
 
