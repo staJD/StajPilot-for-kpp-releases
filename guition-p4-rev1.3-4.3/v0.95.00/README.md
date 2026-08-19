@@ -1,6 +1,6 @@
 # StajPilot v0.95.00 — Guition JC4880P443C_I_W
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
-  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt=“StajPilot width="480">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
 </a>
 
 ## What's new in this version

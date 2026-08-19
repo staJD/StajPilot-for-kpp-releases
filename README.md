@@ -1,6 +1,6 @@
 # StajPilot
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
-  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt=“StajPilot width="480">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
 </a><br>
 Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig
 navigation, tap tempo, tuner, per-slot effect status with live icon
@@ -104,4 +104,3 @@ OR MODIFICATION OF THE SOFTWARE, OR FROM THE MANUFACTURE OR USE OF ANY HARDWARE 
 ## Contact
 
 Please open a GitHub Issue, and we'll proceed with further discussion from there.
-<!-- fill in once the repo exists, e.g. link to Issues tab -->
