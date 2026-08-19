@@ -33,6 +33,10 @@ through a set in real time - not just a passive display.
 Pick your board above for firmware, flashing instructions, and full
 feature details for that specific device.
 
+> ⚠️ **Buying a Guition board?** Confirm with the seller that it's
+> **rev1.3** before you order — see the [board page](guition-p4-rev1.3-4.3/)
+> for why.
+
 ## Installing
 
 **Easiest way: flash straight from your browser** — no software to
