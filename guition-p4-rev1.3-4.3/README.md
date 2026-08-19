@@ -14,8 +14,9 @@ ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W, 4.3" 800×480 touch LCD).
 > components, and are **not guaranteed to work**. Ask the seller to
 > confirm it's rev1.3 before you order.
 
-Currently only tested against the Kemper Profiler **Player** - not
-verified against the other Profiler models (Stage, PowerHead, Rack).
+Currently only tested against the Kemper Profiler **Player**, on
+firmware **LV3** - not verified against the other Profiler models
+(Stage, PowerHead, Rack) or other firmware versions.
 
 ## Features
 
