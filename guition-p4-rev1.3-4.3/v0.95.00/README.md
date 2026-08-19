@@ -1,5 +1,8 @@
 # StajPilot v0.95.00 — Guition JC4880P443C_I_W
-[![StajPilot v0.95](https://img.youtube.com/vi/ZbDjtYzA_fI.jpg)](https://www.youtube.com/watch?v=ZbDjtYzA_fI)
+<a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt=“StajPilot width="480">
+</a>
+
 ## What's new in this version
 
 - **FX reveal-animation on/off setting** — new "FX ANIM" checkbox in
