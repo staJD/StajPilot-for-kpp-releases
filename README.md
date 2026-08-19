@@ -51,17 +51,17 @@ Prefer to flash manually with `esptool` instead? Each board's folder
 above also links to its Releases page with the raw `.bin` files and
 manual flashing commands.
 
-## MIDI communication with the Kemper
+## MIDI communication with the Kemper Player
 
-StajPilot runs in the Kemper's bi-directional mode and relies as much as
-possible on the data the Kemper streams automatically, rather than
+StajPilot runs in the Kemper Player's bi-directional mode and relies as
+much as possible on the data it streams automatically, rather than
 polling for it - their own guidance recommends avoiding heavy request
 traffic while in bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
 whole MIDI layer is built around stability and keeping load on the
-Kemper's own system low - the streamed data itself stays real-time,
-this is about not piling extra requests on top of it.
+Kemper Player's own system low - the streamed data itself stays
+real-time, this is about not piling extra requests on top of it.
 
 ## License
 This software (including any distributed binaries, the "Software") is licensed under the following terms.

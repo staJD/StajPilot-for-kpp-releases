@@ -14,9 +14,8 @@ ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W, 4.3" 800×480 touch LCD).
 > components, and are **not guaranteed to work**. Ask the seller to
 > confirm it's rev1.3 before you order.
 
-Currently only tested against the Kemper Profiler **Player**, on
-firmware **LV3** - not verified against the other Profiler models
-(Stage, PowerHead, Rack) or other firmware versions.
+Currently only tested against the Kemper Profiler **Player LV3** - not
+verified against the other Profiler models (Stage, PowerHead, Rack).
 
 ## Features
 
@@ -34,17 +33,17 @@ firmware **LV3** - not verified against the other Profiler models
 - Bluetooth MIDI support for wireless foot controllers - tested with 3x
   M-VAVE Chocolate pedals connected simultaneously, up to 5 supported
 
-## MIDI communication with the Kemper
+## MIDI communication with the Kemper Player
 
-StajPilot runs in the Kemper's bi-directional mode and relies as much as
-possible on the data the Kemper streams automatically, rather than
+StajPilot runs in the Kemper Player's bi-directional mode and relies as
+much as possible on the data it streams automatically, rather than
 polling for it - their own guidance recommends avoiding heavy request
 traffic while in bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
 whole MIDI layer is built around stability and keeping load on the
-Kemper's own system low - the streamed data itself stays real-time,
-this is about not piling extra requests on top of it.
+Kemper Player's own system low - the streamed data itself stays
+real-time, this is about not piling extra requests on top of it.
 
 ## Installing
 
