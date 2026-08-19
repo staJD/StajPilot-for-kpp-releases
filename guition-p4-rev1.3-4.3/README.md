@@ -1,6 +1,9 @@
 # StajPilot — Guition JC4880P443C_I_W (rev1.3)
 
-[← back to all boards](../)
+<a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt=“StajPilot width="480">
+</a>
+
 
 Touchscreen MIDI controller for the Kemper Profiler Player, built on an
 ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W, 4.3" 800×480 touch LCD).
