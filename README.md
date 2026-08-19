@@ -11,7 +11,8 @@ This repository hosts **compiled firmware releases and documentation
 only**. Source is maintained in a private repository. Each supported
 board has its own folder with hardware details, firmware releases, and
 setup instructions - features and firmware are independent per board.
-
+[
+](https://youtu.be/ZbDjtYzA_fI?si=Hch5h59ZEFgTXSlx)
 ## Why "stajPilot"
 
 "Staj" is a stylized spelling of "Stage" - same pronunciation, just
