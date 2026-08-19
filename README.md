@@ -34,7 +34,7 @@ feature details for that specific device.
 
 StajPilot runs in the Kemper's bi-directional mode and relies as much as
 possible on the data the Kemper streams automatically, rather than
-polling for it - Kemper's own guidance recommends avoiding heavy request
+polling for it - their own guidance recommends avoiding heavy request
 traffic while in bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
