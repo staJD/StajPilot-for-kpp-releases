@@ -1,5 +1,7 @@
 # StajPilot
-
+<a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt=“StajPilot width="480">
+</a>
 Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig
 navigation, tap tempo, tuner, per-slot effect status with live icon
 reveal animations, amp art, and **Song Mode** - StajPilot's own addition
