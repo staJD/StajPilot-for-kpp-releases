@@ -33,6 +33,20 @@ through a set in real time - not just a passive display.
 Pick your board above for firmware, flashing instructions, and full
 feature details for that specific device.
 
+## Installing
+
+**Easiest way: flash straight from your browser** — no software to
+install, just Chrome or Edge on a desktop computer:
+
+### 👉 [stajd.github.io](https://stajd.github.io/)
+
+Plug your board in over USB, pick it from the list on that page, and
+follow the on-page instructions.
+
+Prefer to flash manually with `esptool` instead? Each board's folder
+above also links to its Releases page with the raw `.bin` files and
+manual flashing commands.
+
 ## MIDI communication with the Kemper
 
 StajPilot runs in the Kemper's bi-directional mode and relies as much as

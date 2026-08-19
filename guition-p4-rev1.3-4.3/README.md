@@ -31,7 +31,7 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 
 StajPilot runs in the Kemper's bi-directional mode and relies as much as
 possible on the data the Kemper streams automatically, rather than
-polling for it - Kemper's own guidance recommends avoiding heavy request
+polling for it - their own guidance recommends avoiding heavy request
 traffic while in bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
@@ -39,43 +39,60 @@ whole MIDI layer is built around stability and keeping load on the
 Kemper's own system low - the streamed data itself stays real-time,
 this is about not piling extra requests on top of it.
 
-## Getting the firmware
+## Installing
 
-Grab the latest release for this board from the
-[Releases](../../../releases) page (tagged
-`VX.XX.XX_stajPilot(JC4880P443C_I_W)`). Each release
-includes:
+**Easiest: flash from your browser** — no software to install, works in
+Chrome or Edge on a desktop computer:
 
-- `stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin` — app-only update. Use this if
-  you already have a working install and just want the new version -
-  keeps your song list, WiFi settings, and other saved config.
-- `stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin` — full image (bootloader +
-  partition table + app). Use this only for a first install or a full
-  recovery - **this wipes saved song/WiFi config.**
+### 👉 [stajd.github.io](https://stajd.github.io/)
+
+Pick "Guition JC4880P4" from the list there and follow the on-page
+steps — they cover everything, including putting the board into upload
+mode.
+
+### Manual install with esptool
+
+If you'd rather flash it yourself from the command line:
+
+1. Install [esptool](https://github.com/espressif/esptool):
+   `pip install esptool`.
+2. Grab the latest release for this board from the
+   [Releases](../../../releases) page (tagged
+   `VX.XX.XX_stajPilot(JC4880P443C_I_W)`). Each release includes:
+   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin` — app-only
+     update. Use this if you already have a working install and just
+     want the new version - keeps your song list, WiFi settings, and
+     other saved config.
+   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin` — full
+     image (bootloader + partition table + app). Use this only for a
+     first install or a full recovery - **this wipes saved song/WiFi
+     config.**
+3. Put the board into upload mode: unplug the USB cable, press and hold
+   the **BOOT** button, then plug the cable back in while still holding
+   it. The screen should turn **blank/black** — that's the sign it
+   worked. Keep holding BOOT about 2 more seconds, then release it.
+4. Find the board's serial port: on Mac it's something like
+   `/dev/cu.usbmodem83101`; on Windows it's `COM3`, `COM4`, etc. (If
+   you're not sure which, unplug the board and see which port
+   disappears from `esptool.py --port` autodetect or your OS's device
+   list.)
+5. Run the matching command below, with `<PORT>` replaced by that port:
+
+   **Normal update** (keeps your song list/WiFi config):
+   ```
+   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
+     write_flash 0x10000 stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin
+   ```
+
+   **Factory install / recovery** (first install, or full reset):
+   ```
+   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
+     write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
+   ```
+6. When it finishes, the board restarts on its own running the new
+   firmware.
 
 Each release's notes describe what changed in that version.
-
-## Flashing
-
-Needs [esptool](https://github.com/espressif/esptool)
-(`pip install esptool`).
-
-**Normal update** (keeps your song list/WiFi config):
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin
-```
-
-**Factory install / recovery** (first install, or full reset):
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
-```
-
-`<PORT>` is the device's USB serial port (e.g. `/dev/cu.usbmodem*` on
-Mac, `COM*` on Windows).
 
 ## Hardware
 
