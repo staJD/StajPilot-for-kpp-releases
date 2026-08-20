@@ -63,7 +63,16 @@ whole MIDI layer is built around stability and keeping load on the
 Kemper Player's own system low - the streamed data itself stays
 real-time, this is about not piling extra requests on top of it.
 
-## License
+## Support
+StajPilot is maintained in spare time. More board support, along with new expansion devices like a footswitch controller and a desktop controller, are in the works.
+
+This project keeps moving forward thanks to the people who choose to support it. Every contribution goes straight into the next update.
+
+<a href='https://ko-fi.com/stajd' target='_blank'>
+  <img height='56' style='border:0px;height:56px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Support me on ko-fi.com' />
+</a>
+
+*Ko-fi has been around since 2011 as a creator support platform — no account needed, just a couple of clicks.*## License
 This software (including any distributed binaries, the "Software") is licensed under the following terms.
 
 1. **Personal / Non-Commercial Use**
@@ -100,8 +109,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 CIRCUMSTANCES SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES (INCLUDING BUT NOT LIMITED TO
 DIRECT, INDIRECT, OR INCIDENTAL DAMAGES), OR OTHER LIABILITY ARISING FROM THE USE, INSTALLATION,
 OR MODIFICATION OF THE SOFTWARE, OR FROM THE MANUFACTURE OR USE OF ANY HARDWARE INCORPORATING IT.
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/stajd)
 
 
 ## Contact
