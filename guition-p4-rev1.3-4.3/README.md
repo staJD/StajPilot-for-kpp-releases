@@ -81,9 +81,15 @@ If you'd rather flash it yourself from the command line:
      first install or a full recovery - **this wipes saved song/WiFi
      config.**
 3. Put the board into upload mode: unplug the USB cable, press and hold
-   the **BOOT** button, then plug the cable back in while still holding
-   it. The screen should turn **blank/black** — that's the sign it
-   worked. Keep holding BOOT about 2 more seconds, then release it.
+   the **BOOT** button, then plug the cable back into the **top** USB-C
+   port while still holding it (the bottom port is for the Kemper
+   connection, not flashing — see photos below). The screen should turn
+   **blank/black** — that's the sign it worked. Keep holding BOOT about
+   2 more seconds, then release it.
+
+   <img src="images/buttons.jpg" alt="BOOT and RESET buttons" width="260">
+   <img src="images/ports.jpg" alt="PC vs Kemper USB-C ports" width="260">
+
 4. Find the board's serial port: on Mac it's something like
    `/dev/cu.usbmodem83101`; on Windows it's `COM3`, `COM4`, etc. (If
    you're not sure which, unplug the board and see which port
