@@ -108,8 +108,9 @@ If you'd rather flash it yourself from the command line:
    esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
      write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
    ```
-6. When it finishes, the board restarts on its own running the new
-   firmware.
+6. The board doesn't restart on its own — unplug the cable from the
+   **top (PC)** port, then connect the **bottom (Kemper)** port to
+   your Kemper as normal. That boots it into the new firmware.
 
 Each release's notes describe what changed in that version.
 
