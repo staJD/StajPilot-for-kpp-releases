@@ -71,11 +71,11 @@ This project keeps moving forward thanks to the people who choose to support it.
   <img height='56' style='border:0px;height:56px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Support me on ko-fi.com' />
 </a>
 
-*Ko-fi has been around since 2011 as a creator support platform — no account needed, just a couple of clicks.*## License
-This software (including any distributed binaries, the "Software") is licensed under the following terms.
+*Ko-fi has been around since 2011 as a creator support platform — no account needed, just a couple of clicks.
 
 
 ## LICENSE
+This software (including any distributed binaries, the "Software") is licensed under the following terms.
 1. **Personal / Non-Commercial Use**
    Personal, non-commercial use — including downloading, installing, and running the Software — is
    permitted freely without prior permission. Connecting the hardware to other devices or
