@@ -34,8 +34,9 @@ Pick your board above for firmware, flashing instructions, and full
 feature details for that specific device.
 
 > ⚠️ **Buying a Guition board?** Confirm with the seller that it's
-> **P4rev1.3** before you order — see the [board page](guition-p4-rev1.3-4.3/)
-> for why.
+> **P4rev1.3** before you order, and check the model name: **`_Y`** at
+> the end means the case is included, no `_Y` means bare board only —
+> see the [board page](guition-p4-rev1.3-4.3/) for details.
 
 ## Installing
 

@@ -13,6 +13,13 @@ ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W_Y, 4.3" 800×480 touch LCD).
 > the Guition JC4880P443C_I_W_Y. Other revisions can differ in pinout and
 > components, and are **not guaranteed to work**. Ask the seller to
 > confirm it's rev1.3 before you order.
+>
+> **The model name also tells you whether the case is included**: a
+> model ending in **`_Y`** (e.g. `JC4880P443C_I_W_Y`) comes with the
+> case/enclosure; without `_Y` (`JC4880P443C_I_W`), it's the bare board
+> only. Unless you're sourcing or making your own casing, buy the
+> **`_Y`** version — and double-check the case-included option on the
+> product listing before you order.
 
 Currently only tested against the Kemper Profiler **Player LV3** - not
 verified against the other Profiler models (Stage, PowerHead, Rack).
@@ -102,7 +109,7 @@ Each release's notes describe what changed in that version.
 
 ## Hardware
 
-- Guition JC4880P443C_I_W, rev1.3
+- Guition JC4880P443C_I_W_Y, rev1.3
 - ESP32-P4 + ESP32-C6 WiFi/BT companion
 - 4.3" 800×480 RGB touch LCD
 - microSD card slot for amp art images (optional - the device works
