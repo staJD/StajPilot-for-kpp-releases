@@ -28,7 +28,7 @@ through a set in real time - not just a passive display.
 |---|---|---|
 | [Guition JC4880P443C_I_W_Y (rev1.3)](guition-p4-rev1.3-4.3/) | 4.3" 800×480 | **Current - releases available** (high-performance ESP32-P4 chipset) |
 | Waveshare ESP32-S3-Touch-LCD-4.3C | 4.3" 800×480 | In progress - being re-stabilized (this was the project's original board) |
-| Waveshare ESP32-S3-Touch-LCD-2 | 2" 240×320 | In progress - currently being tested |
+| Waveshare ESP32-S3-Touch-LCD-2 | 2" 240×320 | In progress - currently being tested (compact touch version) |
 | Guition JC3248W535C | 3.5" | In progress |
 
 Pick your board above for firmware, flashing instructions, and full
