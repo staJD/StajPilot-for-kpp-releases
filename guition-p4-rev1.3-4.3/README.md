@@ -10,7 +10,7 @@ ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W_Y, 4.3" 800×480 touch LCD).
 
 > ⚠️ **Before you buy: confirm the board revision with the seller.**
 > This firmware is built and tested specifically against **rev1.3** of
-> the Guition JC4880P443C_I_W. Other revisions can differ in pinout and
+> the Guition JC4880P443C_I_W_Y. Other revisions can differ in pinout and
 > components, and are **not guaranteed to work**. Ask the seller to
 > confirm it's rev1.3 before you order.
 
