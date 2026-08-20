@@ -41,6 +41,19 @@
   (bootloader + partition table + app). Use this only for a first
   install or a full recovery - **this wipes saved song/WiFi config.**
 
+
+## Installing
+
+**Easiest: flash from your browser** — no software to install, works in
+Chrome or Edge on a desktop computer:
+
+### 👉 [stajd.github.io](https://stajd.github.io/)
+
+Pick "Guition JC4880P4" from the list there and follow the on-page
+steps — they cover everything, including putting the board into upload
+mode.
+
+
 ## Flashing: normal update (preserves song/WiFi config)
 
 ```
