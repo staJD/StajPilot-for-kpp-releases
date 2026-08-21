@@ -29,7 +29,8 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 - Bank/rig navigation with 5 performance slots + tap tempo + tuner
 - Live effect on/off display per slot, with animated reveal icons
   (togglable if you'd rather save CPU)
-- Amp art display, loaded from a microSD card
+- Amp art display, loaded from a microSD card (currently being
+  stabilized - re-enabled in the next update)
 - **Song Mode** - the Kemper Profiler Player has no concept of songs of
   its own, only banks/slots. StajPilot adds a simple Song Mode on top of
   that: a WiFi config page lets you label each bank/slot with a song
