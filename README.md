@@ -1,6 +1,9 @@
 # StajPilot
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
-  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
+  <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
+</a><br>
+<a href="https://youtu.be/kLVWh-ry95s" target="_blank">
+  <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
 </a><br>
 Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig
 navigation, tap tempo, tuner, per-slot effect status with live icon
