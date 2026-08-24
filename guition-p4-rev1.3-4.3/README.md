@@ -31,9 +31,10 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
   (togglable if you'd rather save CPU)
 - Amp art display, loaded from a microSD card (currently being
   stabilized - re-enabled in the next update). **Still in beta** -
-  usage guidelines for what can be loaded here (this is not a "load any
-  image you want" feature) are still being worked out and will be
-  documented before this is fully re-enabled.
+  images have to follow a defined format/spec (dimensions, file type,
+  etc.), not just any image dropped onto the card. The exact
+  requirements are still being finalized and will be documented before
+  this is fully re-enabled.
 - **Song Mode** - the Kemper Profiler Player has no concept of songs of
   its own, only banks/slots. StajPilot adds a simple Song Mode on top of
   that: a WiFi config page lets you label each bank/slot with a song
