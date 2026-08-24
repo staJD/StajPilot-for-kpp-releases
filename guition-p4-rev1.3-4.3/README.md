@@ -60,9 +60,47 @@ Chrome or Edge on a desktop computer:
 
 ### 👉 [stajd.github.io](https://stajd.github.io/)
 
-Pick "Guition JC4880P4" from the list there and follow the on-page
-steps — they cover everything, including putting the board into upload
-mode.
+Pick "Guition JC4880P4" from the list, then:
+
+1. Press and hold the board's **BOOT** button. While still holding it,
+   plug in the USB-C cable, connected to the **top** USB-C port (labeled
+   PC in the photo below) — not the bottom port, which is for the
+   Kemper connection. Watch the screen: it should turn **blank/black**
+   — that's the sign it worked and the board is in upload mode (if the
+   normal display is still showing, it didn't work — try again). Once
+   it's black, keep holding BOOT about 2 more seconds, then release it.
+
+   <img src="images/buttons.jpg" alt="BOOT and RESET buttons" width="260">
+   <img src="images/ports.jpg" alt="PC vs Kemper USB-C ports" width="260">
+
+2. Click **Connect & Flash** on the site.
+3. A popup will list every port on your computer — pick the one for
+   this board, then click **Connect**.
+   - **On Mac**: look for a single entry whose name includes both
+     `usbmodem` and `USB JTAG/serial debug unit` together, like
+     `cu.usbmodem83101 USB JTAG/serial debug unit`. Ignore
+     `Bluetooth-Incoming-Port` or `debug-console` — those aren't your
+     board.
+   - **On Windows**: ports just show as `COM3`, `COM4`, etc. with no
+     descriptive name. If you're not sure which one, unplug the board,
+     check which port disappears from the list, then plug it back in
+     and pick that one.
+4. Click **Install**. A dialog will ask if you want to erase the
+   device.
+   - **First time installing on this board?** Check the box — there's
+     nothing saved yet to lose, and it guarantees a clean start.
+   - **Already have StajPilot and just updating?** Leave it unchecked
+     to keep your saved settings and song list. Then click **Next**.
+5. Wait for it to flash — don't unplug the board while it's in
+   progress.
+6. When you see "Installation complete!", click **Next** (it's the only
+   button there). This takes you to a menu with "Install..." and "Logs
+   & Console" — that's just the tool's normal menu (it looks the same
+   whether you're starting or already finished), so don't click either
+   option. Close it with the **X** in the corner instead.
+7. Unplug the cable from the top (PC) port, then connect the bottom
+   (Kemper) port to your Kemper as normal — that's how you start
+   running the new firmware.
 
 ### Manual install with esptool
 
