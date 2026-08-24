@@ -1,10 +1,16 @@
 # StajPilot
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
-</a><br>
+</a>
+
+▶️ **[Watch on YouTube — Guition JC4880P4 (4.3")](https://www.youtube.com/watch?v=ZbDjtYzA_fI)**
+
 <a href="https://youtu.be/kLVWh-ry95s" target="_blank">
   <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
-</a><br>
+</a>
+
+▶️ **[Watch on YouTube — Waveshare ESP32-S3-Touch-LCD-2 (2")](https://youtu.be/kLVWh-ry95s)**
+
 Touchscreen MIDI controller for the Kemper Profiler Player. Bank/rig
 navigation, tap tempo, tuner, per-slot effect status with live icon
 reveal animations, amp art, and **Song Mode** - StajPilot's own addition
@@ -16,6 +22,8 @@ This repository hosts **compiled firmware releases and documentation
 only**. Source is maintained in a private repository. Each supported
 board has its own folder with hardware details, firmware releases, and
 setup instructions - features and firmware are independent per board.
+
+Questions? DM on [Instagram](https://www.instagram.com/stajpilot) — answered as soon as seen.
 
 
 ## Why "stajPilot"

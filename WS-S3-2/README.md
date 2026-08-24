@@ -6,6 +6,8 @@
   <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
 </a>
 
+▶️ **[Watch on YouTube](https://youtu.be/kLVWh-ry95s)**
+
 Touchscreen MIDI controller for the Kemper Profiler Player, built on a
 Waveshare ESP32-S3-Touch-LCD-2 (2" 320×240 touch LCD).
 
