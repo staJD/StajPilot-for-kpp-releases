@@ -128,3 +128,4 @@ OR MODIFICATION OF THE SOFTWARE, OR FROM THE MANUFACTURE OR USE OF ANY HARDWARE 
 ## Contact
 
 Please open a GitHub Issue, and we'll proceed with further discussion from there.
+For quick questions, DM on [Instagram](https://www.instagram.com/stajpilot) — answered as soon as seen.
