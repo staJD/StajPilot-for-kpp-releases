@@ -57,3 +57,7 @@ real-time, this is about not piling extra requests on top of it.
 - Waveshare ESP32-S3-Touch-LCD-2
 - ESP32-S3, native USB + native Bluetooth (no companion chip needed)
 - 2" 320×240 touch LCD
+- The back of the board is exposed - for now, a simple M2-standoff
+  spacer and cover, 3D-printed in plastic, is enough to close it up.
+  Drawings for a laser-cut acrylic cover are planned and will be
+  provided soon.
