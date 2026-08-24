@@ -61,3 +61,5 @@ real-time, this is about not piling extra requests on top of it.
   spacer and cover, 3D-printed in plastic, is enough to close it up.
   Drawings for a laser-cut acrylic cover are planned and will be
   provided soon.
+
+  <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
