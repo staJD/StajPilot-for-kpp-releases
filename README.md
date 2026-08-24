@@ -1,4 +1,4 @@
-# StajPilot
+<img src="assets/logo.png" alt="StajPilot" width="320">
 
 [한국어로 보기](README_kr.md)
 
