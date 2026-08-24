@@ -1,5 +1,3 @@
-<img src="../assets/logo.png" alt="StajPilot" width="240">
-
 # StajPilot — Guition JC4880P443C_I_W_Y (rev1.3)
 
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
