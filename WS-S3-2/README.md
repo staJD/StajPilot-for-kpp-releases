@@ -23,8 +23,8 @@ answered as soon as seen.
 ## Features
 
 - Bank/rig navigation — 125 song banks × 5 slots, on-screen buttons or
-  bank next/prev, confirmed against the Kemper's own reply rather than
-  assumed
+  bank next/prev, always in sync with what's actually loaded on the
+  Kemper
 - Live rig display — rig name, amp name, gain (10-step color gradient),
   tempo, and fixed-FX on/off state, all pulled live from the Kemper
 - Tuner with two modes: **Normal** (integer cents, standard ±2 in-tune
