@@ -1,4 +1,4 @@
-<img src="assets/logo_v2.png" alt="StajPilot" width="320">
+# StajPilot
 
 [Read in English](README.md)
 

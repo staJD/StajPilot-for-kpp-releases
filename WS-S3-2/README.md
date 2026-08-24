@@ -1,5 +1,3 @@
-<img src="../assets/logo_v2.png" alt="StajPilot" width="240">
-
 # StajPilot — Waveshare ESP32-S3-Touch-LCD-2
 
 [← back to all boards](../)
