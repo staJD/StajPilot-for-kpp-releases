@@ -1,6 +1,6 @@
 # StajPilot — Waveshare ESP32-S3-Touch-LCD-2
 
-[← back to all boards](../)
+[← back to all boards](../README.md)
 
 <a href="https://youtu.be/kLVWh-ry95s" target="_blank">
   <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
