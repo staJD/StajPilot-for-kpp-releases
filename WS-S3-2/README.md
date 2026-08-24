@@ -9,7 +9,9 @@
 ▶️ **[Watch on YouTube](https://youtu.be/kLVWh-ry95s)**
 
 Touchscreen MIDI controller for the Kemper Profiler Player, built on a
-Waveshare ESP32-S3-Touch-LCD-2 (2" 320×240 touch LCD).
+Waveshare ESP32-S3-Touch-LCD-2 (2" 320×240 touch LCD). The board itself
+costs around **$15**, and still gives you full touch control - a low-cost,
+low-risk way to try StajPilot.
 
 **🚧 Coming soon — firmware releases for this board aren't published yet.**
 This page will be filled in with download links, flashing instructions,
