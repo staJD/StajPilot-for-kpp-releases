@@ -87,8 +87,6 @@ forward. I'll keep taking on creative projects that musicians actually need.
 <a href='https://ko-fi.com/stajd' target='_blank'>
   <img height='56' style='border:0px;height:56px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Support me on ko-fi.com' />
 </a>
-<a href="https://ko-fi.com/stajd" target="_blank"><img src="https://img.shields.io/badge/%E2%98%95_Support_on_Ko--fi-E8973A?style=for-the-badge" alt="Support on Ko-fi" height="28"></a>
-
 The name comes from "coffee" — the idea of buying someone a coffee as a
 small, casual way to say thanks. It's a well-known creator-support platform
 (since 2011), no account needed, just a card or PayPal, and completely
