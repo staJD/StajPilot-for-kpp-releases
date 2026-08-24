@@ -1,4 +1,7 @@
 # StajPilot
+
+[한국어로 보기](README_kr.md)
+
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
 </a>
