@@ -13,7 +13,8 @@ ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W_Y, 4.3" 800×480 touch LCD).
 The P4 chip gives it plenty of headroom for a big 4.3" screen, but the
 board itself stays light - it doesn't feel bulky sitting on your
 pedalboard or rig. WiFi and Bluetooth are built in too, via a dedicated
-companion chip (the ESP32-C6) - no extra modules needed.
+companion chip (the ESP32-C6) - no extra modules needed. The board
+itself costs around **$30**.
 
 > ⚠️ **Before you buy: confirm the board revision with the seller.**
 > This firmware is built and tested specifically against **rev1.3** of
