@@ -6,6 +6,7 @@
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
 </a>
 
+▶️ **[Watch on YouTube](https://www.youtube.com/watch?v=ZbDjtYzA_fI)**
 
 Touchscreen MIDI controller for the Kemper Profiler Player, built on an
 ESP32-P4 + ESP32-C6 (Guition JC4880P443C_I_W_Y, 4.3" 800×480 touch LCD).
@@ -51,8 +52,8 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 
 StajPilot runs in the Kemper Player's bi-directional mode and relies as
 much as possible on the data it streams automatically, rather than
-polling for it - their own guidance recommends avoiding heavy request
-traffic while in bi-directional mode. Some detailed data isn't part of
+polling for it - it's best to avoid heavy request traffic while in
+bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
 whole MIDI layer is built around stability and keeping load on the

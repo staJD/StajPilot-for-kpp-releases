@@ -44,8 +44,8 @@ answered as soon as seen.
 
 StajPilot runs in the Kemper Player's bi-directional mode and relies as
 much as possible on the data it streams automatically, rather than
-polling for it - their own guidance recommends avoiding heavy request
-traffic while in bi-directional mode. Some detailed data isn't part of
+polling for it - it's best to avoid heavy request traffic while in
+bi-directional mode. Some detailed data isn't part of
 that auto-stream and still needs a direct request; those requests are
 kept optional where possible, so users can choose to skip them. The
 whole MIDI layer is built around stability and keeping load on the
