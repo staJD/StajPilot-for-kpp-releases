@@ -76,15 +76,22 @@ whole MIDI layer is built around stability and keeping load on the
 Kemper Player's own system low - the streamed data itself stays
 real-time, this is about not piling extra requests on top of it.
 
-## Support
-StajPilot is maintained in spare time. More board support, along with new expansion devices like a footswitch controller and a desktop controller, are in the works.
-This project keeps moving forward thanks to the people who choose to support it. Every contribution goes straight into the next update.
+## Support StajPilot
+
+Keeping up with Kemper updates, building new boards, adding fun features —
+StajPilot needs continued work to keep growing. Support is what drives that
+forward. I'll keep taking on creative projects that musicians actually need.
+
+### ☕ Support on Ko-fi
 
 <a href='https://ko-fi.com/stajd' target='_blank'>
   <img height='56' style='border:0px;height:56px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Support me on ko-fi.com' />
 </a>
 
-*Ko-fi has been around since 2011 as a creator support platform — no account needed, just a couple of clicks.
+The name comes from "coffee" — the idea of buying someone a coffee as a
+small, casual way to say thanks. It's a well-known creator-support platform
+(since 2011), no account needed, just a card or PayPal, and completely
+separate from installing/using StajPilot.
 
 
 ## LICENSE
