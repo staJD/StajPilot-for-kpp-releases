@@ -6,13 +6,13 @@
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
 </a>
 
-▶️ **[유튜브로 보기 — 구이션 JC4880P4 (4.3인치)](https://www.youtube.com/watch?v=ZbDjtYzA_fI)**
+▶️ **[YouTube로 보기 — Guition JC4880P4 (4.3인치)](https://www.youtube.com/watch?v=ZbDjtYzA_fI)**
 
 <a href="https://youtu.be/kLVWh-ry95s" target="_blank">
   <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
 </a>
 
-▶️ **[유튜브로 보기 — 웨이브셰어 ESP32-S3-Touch-LCD-2 (2인치)](https://youtu.be/kLVWh-ry95s)**
+▶️ **[YouTube로 보기 — Waveshare ESP32-S3-Touch-LCD-2 (2인치)](https://youtu.be/kLVWh-ry95s)**
 
 캠퍼 프로파일러 플레이어용 터치스크린 MIDI 컨트롤러입니다. 뱅크/릭 탐색,
 탭 템포, 튜너, 실시간 아이콘 애니메이션이 들어간 슬롯별 이펙트 상태 표시,
@@ -48,7 +48,7 @@
 위에서 보드를 선택하면 그 기기에 맞는 펌웨어, 설치 안내, 전체 기능
 설명을 볼 수 있습니다.
 
-> ⚠️ **구이션 보드 구매 예정이신가요?** 주문 전에 판매자에게 **P4rev1.3**
+> ⚠️ **Guition 보드 구매 예정이신가요?** 주문 전에 판매자에게 **P4rev1.3**
 > 버전이 맞는지 꼭 확인하시고, 모델명도 체크하세요: 끝에 **`_Y`**가
 > 붙으면 케이스 포함, 안 붙으면 보드만 — 자세한 내용은
 > [보드 페이지](guition-p4-rev1.3-4.3/)를 참고하세요.
