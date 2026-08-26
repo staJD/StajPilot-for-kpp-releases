@@ -53,6 +53,12 @@ public build to include any of it.
   Fast) controls how often it checks — None turns polling off entirely if
   you don't use morph and would rather not have the extra MIDI traffic.
 
+  **Note:** this works by polling the Kemper on a timer (every 200-600ms,
+  depending on the setting), adding a small amount of continuous MIDI
+  traffic even when nothing changes. Unless you actually use the morph
+  pedal and want to watch its position on screen, we'd recommend setting
+  this to **None**.
+
 ## Known limitations (beta-specific)
 
 - USB Host mode is new and has had comparatively little real-world testing
