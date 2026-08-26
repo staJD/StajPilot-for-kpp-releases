@@ -7,6 +7,29 @@ if you don't need it, staying on v0.95.00 is the safer choice for now.
 
 ## What's new in this version
 
+Everything below has accumulated since v0.95.00 - this beta is the first
+public build to include any of it.
+
+- **Swipe to change bank (new)** — swipe left/right anywhere from the rig
+  name down to the bottom of the screen to move to the previous/next
+  bank, instead of using dedicated `</>` buttons. This frees up width for
+  bigger slot buttons. A new **SWIPE NAV** checkbox in Settings turns this
+  off again if you'd rather keep the old buttons - nothing is lost either
+  way.
+- **Second, longer slot label ("sub swipe")** — when SWIPE NAV is on, each
+  slot button can show a longer secondary label (up to 12 characters)
+  instead of the short 5-character one, since swipe mode frees up the
+  width for it. Set per-slot from the web config page; falls back to the
+  short label automatically if left blank.
+- **MIDI CHANNEL control** changed from a scrolling roller to a dropdown,
+  matching the BOX/FIXED FX controls, and the Settings screen got a
+  general layout tidy-up (including shortening "MIDI CHANNEL" to
+  "CHANNEL" and tightening up the row of dropdowns to make room for the
+  new MORPH setting below).
+- **Web config page**: column widths on the song/slot editor now track
+  character count directly instead of stretching unevenly, and a couple
+  of small label/wording fixes.
+
 - **USB Host mode (new)** — the board's Full-Speed USB-C port can now act
   as a USB MIDI **Host**, so it can connect directly to the Kemper's own
   USB-B device port. Three boot-fixed modes, selectable from a new **USB
