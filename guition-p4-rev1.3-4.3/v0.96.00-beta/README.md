@@ -22,10 +22,7 @@ public build to include any of it.
   width for it. Set per-slot from the web config page; falls back to the
   short label automatically if left blank.
 - **MIDI CHANNEL control** changed from a scrolling roller to a dropdown,
-  matching the BOX/FIXED FX controls, and the Settings screen got a
-  general layout tidy-up (including shortening "MIDI CHANNEL" to
-  "CHANNEL" and tightening up the row of dropdowns to make room for the
-  new MORPH setting below).
+  matching the BOX/FIXED FX controls.
 - **Web config page**: column widths on the song/slot editor now track
   character count directly instead of stretching unevenly, and a couple
   of small label/wording fixes.
@@ -55,12 +52,6 @@ public build to include any of it.
   doesn't clutter the screen. New **MORPH** setting (None / Slow / Med /
   Fast) controls how often it checks — None turns polling off entirely if
   you don't use morph and would rather not have the extra MIDI traffic.
-
-- **Settings screen cleanup** — "MIDI CHANNEL" shortened to "CHANNEL",
-  the four dropdown settings (CHANNEL / BOX / MORPH / FIXED FX) tightened
-  up to fit in one row, and the USB mode shortcut button removed from this
-  screen (still reachable from the waiting screen, and from a dedicated
-  entry point in Settings on the USB MODE page).
 
 ## Known limitations (beta-specific)
 
