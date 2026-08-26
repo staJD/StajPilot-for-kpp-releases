@@ -29,9 +29,11 @@ public build to include any of it.
 
 - **USB Host mode (new)** — the board's Full-Speed USB-C port can now act
   as a USB MIDI **Host**, so it can connect directly to the Kemper's own
-  USB-B device port. Three boot-fixed modes, selectable from a new **USB
-  MODE** page (accessible from the waiting screen before a Kemper is
-  connected, or from Settings):
+  USB-B device port. This was built to let you connect other USB MIDI
+  devices to the board - both one-way (send-only) and two-way
+  (bidirectional) devices are supported. Three boot-fixed modes,
+  selectable from a new **USB MODE** page (accessible from the waiting
+  screen before a Kemper is connected, or from Settings):
   - **DEVICE** (previous/default behavior) — High-Speed port as a USB MIDI
     Device, connected to the Kemper's USB-A host port.
   - **HOST** — Full-Speed port as a USB MIDI Host, connected to the
