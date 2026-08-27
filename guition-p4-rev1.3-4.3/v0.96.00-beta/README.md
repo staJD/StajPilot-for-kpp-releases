@@ -48,15 +48,15 @@ public build to include any of it.
   Changing the mode only saves the setting — the board applies it on the
   next power-on, it's never switched live while running.
 
-- **Morph position indicator (new)** — a small live display of the
+- **Morph position indicator** — a small live display of the
   Kemper's morph pedal position, next to the big bank/rig number. Off by
   default when idle; only appears when the value actually changes, so it
   doesn't clutter the screen. New **MORPH** setting (None / Slow / Med /
   Fast) controls how often it checks — None turns polling off entirely if
   you don't use morph and would rather not have the extra MIDI traffic.
 
-  **Note:** this works by polling the Kemper on a timer (Slow 600ms / Med
-  400ms / Fast 200ms), adding a small amount of continuous MIDI traffic
+  **Note:** this works by polling the Kemper on a timer (Slow / Med
+  / Fast), adding a small amount of continuous MIDI traffic
   even when nothing changes — the higher the speed, the more frequent the
   polling. Unless you actually use the morph pedal and want to watch its
   position on screen, we'd recommend setting this to **None**.
