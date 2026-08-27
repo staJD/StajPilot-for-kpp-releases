@@ -100,6 +100,8 @@ public build to include any of it.
 - HOST mode enumerates MIDI-class USB devices; it hasn't been tested
   against every possible USB MIDI device, only what was available during
   development.
+- Connection stability with other bidirectional MIDI controllers is still
+  being tested — behavior may vary by device.
 
 ## Files
 
