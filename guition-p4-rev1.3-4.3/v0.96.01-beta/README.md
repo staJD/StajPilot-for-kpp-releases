@@ -1,5 +1,10 @@
 # StajPilot v0.96.01-beta — Guition JC4880P443C_I_W
 
+> **Updated 2026-08-29**: the Song Mode text now supports accented
+> characters used in Italian, Spanish, German, and Portuguese (ñ, á, ü,
+> etc.) - previously these showed as blank boxes. Same v0.96.01-beta
+> version, binaries below reflect this fix.
+
 **This is a BETA.** It's newer and less battle-tested than the current
 stable release ([v0.95.00](../v0.95.00)). The headline new feature (USB
 Host mode) is genuinely new hardware/firmware territory for this project —
