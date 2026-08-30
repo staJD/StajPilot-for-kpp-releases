@@ -92,7 +92,7 @@ StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작�
 **가장 쉬운 방법: 브라우저에서 바로 플래시** — 별도 소프트웨어 설치 없이,
 크롬이나 엣지 데스크톱 브라우저만 있으면 됩니다:
 
-### 👉 [stajd.github.io](https://stajd.github.io/)
+### 👉 [stajd.github.io](https://stajd.github.io/#waveshare-s3-2.0)
 
 목록에서 "Waveshare ESP32-S3 2.0"을 선택한 다음:
 

@@ -51,7 +51,7 @@
 **Easiest: flash from your browser** — no software to install, works in
 Chrome or Edge on a desktop computer:
 
-### 👉 [stajd.github.io](https://stajd.github.io/)
+### 👉 [stajd.github.io](https://stajd.github.io/#waveshare-s3-2.0)
 
 Pick "Waveshare ESP32-S3 2.0" from the list there and follow the
 on-page steps.
