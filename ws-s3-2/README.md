@@ -170,7 +170,7 @@ and flash offsets.
   reasons. Apply via DM on [Instagram](https://www.instagram.com/stajpilot):
   the drawing file is free for anyone who applies, and a real acrylic
   cover, cut and ready to use, will also be given away free to the
-  first 20 Korea-based applicants.
+  first 20 Korea-based applicants - M2 standoffs and screws included.
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
 
