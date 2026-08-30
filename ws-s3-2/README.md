@@ -97,6 +97,56 @@ whole MIDI layer is built around stability and keeping load on the
 Kemper Player's own system low - the streamed data itself stays
 real-time, this is about not piling extra requests on top of it.
 
+## Installing
+
+**Easiest: flash from your browser** — no software to install, works in
+Chrome or Edge on a desktop computer:
+
+### 👉 [stajd.github.io](https://stajd.github.io/)
+
+Pick "Waveshare ESP32-S3 2.0" from the list, then:
+
+1. Press and hold the board's **BOOT** button. While still holding it,
+   plug in the USB-C cable to the board's Type-C port, connected to
+   your computer. Watch the screen: it should turn **blank/black** —
+   that's the sign it worked and the board is in upload mode (if the
+   normal display is still showing, it didn't work — try again). Once
+   it's black, keep holding BOOT about 2 more seconds, then release it.
+
+   <img src="images/boot-button.png" alt="RST button, Type-C port, and BOOT button locations" width="420">
+
+2. Click **Connect & Flash** on the site.
+3. A popup will list every port on your computer — pick the one for
+   this board, then click **Connect**.
+   - **On Mac**: look for a single entry whose name includes both
+     `usbmodem` and `USB JTAG/serial debug unit` together. Ignore
+     `Bluetooth-Incoming-Port` or `debug-console` — those aren't your
+     board.
+   - **On Windows**: ports just show as `COM3`, `COM4`, etc. with no
+     descriptive name. If you're not sure which one, unplug the board,
+     check which port disappears from the list, then plug it back in
+     and pick that one.
+4. Click **Install**. A dialog will ask if you want to erase the
+   device.
+   - **First time installing on this board?** Check the box — there's
+     nothing saved yet to lose, and it guarantees a clean start.
+   - **Already have StajPilot and just updating?** Leave it unchecked
+     to keep your saved settings and song list. Then click **Next**.
+5. Wait for it to flash — don't unplug the board while it's in
+   progress.
+6. When you see "Installation complete!", click **Next**, then close
+   the tool's menu with the **X** in the corner.
+7. Unplug the cable from your computer, then connect it to your Kemper
+   as normal — this board only has one USB-C port, so the same cable
+   and port used for flashing is also what connects to the Kemper.
+
+### Manual install with esptool
+
+If you'd rather flash it yourself from the command line, grab the
+latest release for this board from the [Releases](../../../releases)
+page and see that release's notes for the exact `esptool.py` commands
+and flash offsets.
+
 ## Hardware
 
 - Waveshare ESP32-S3-Touch-LCD-2
