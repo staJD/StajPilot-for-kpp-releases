@@ -16,6 +16,12 @@ low-risk way to try StajPilot.
 **The beta is out.** Small doesn't mean less capable - there's actually
 a lot packed in behind various gestures.
 
+> ⚠️ **Buying this board?** Make sure you get the version **with touch**
+> included - the touch panel is required for StajPilot to work at all.
+> A camera module is not needed, so skip any camera-included variant.
+> This board comes in quite a few configurations, so double-check the
+> exact option before you order.
+
 Questions? DM on [Instagram](https://www.instagram.com/stajpilot) —
 answered as soon as seen.
 
