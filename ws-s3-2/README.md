@@ -1,6 +1,6 @@
 # StajPilot — Waveshare ESP32-S3-Touch-LCD-2
 
-[← back to all boards](../README.md)
+[← back to all boards](../README.md) · [한국어로 보기](README_kr.md)
 
 <a href="https://youtu.be/kLVWh-ry95s" target="_blank">
   <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
@@ -13,11 +13,10 @@ Waveshare ESP32-S3-Touch-LCD-2 (2" 320×240 touch LCD). The board itself
 costs around **$15**, and still gives you full touch control - a low-cost,
 low-risk way to try StajPilot.
 
-**🚧 Coming soon — firmware releases for this board aren't published yet.**
-This page will be filled in with download links, flashing instructions,
-and hardware notes once the first release is out.
+**The beta is out.** Small doesn't mean less capable - there's actually
+a lot packed in behind various gestures.
 
-Questions in the meantime? DM on [Instagram](https://www.instagram.com/stajpilot) —
+Questions? DM on [Instagram](https://www.instagram.com/stajpilot) —
 answered as soon as seen.
 
 ## Features
@@ -26,18 +25,34 @@ answered as soon as seen.
   bank next/prev, kept in two-way sync with the Kemper
 - Live rig display — rig name, amp name, gain (10-step color gradient),
   tempo, and fixed-FX on/off state, all pulled live from the Kemper
+- 8 main effect slots shown with their own color/icon per effect type,
+  on/off at a glance
 - Tuner with two modes: **Normal** (integer cents, standard ±2 in-tune
   threshold) and **Fine-Tune** (real sub-cent precision, finer graduated
-  bar, tighter in-tune/near-tune bands)
+  bar, tighter in-tune/near-tune bands), with the screen border lighting
+  up green when in tune
 - Tap tempo, including a long-press numeric keypad to type an exact BPM
   and optionally switch the Kemper onto it directly
 - Morph — press the already-active slot again to trigger Morph instead
   of reloading the rig
+- Morph gauge bar — visualizes morph position with a red-to-blue
+  gradient (red left, blue right) so you can see it at a glance
+- Zoomed display mode — blows up the rig/song name to fill the screen
+  so it's readable from a distance
 - Bluetooth MIDI central mode — up to 3 BLE MIDI foot controllers
-  connected simultaneously, forwarded to the Kemper over USB, with an
-  optional MIDI-only scan filter
+  connected simultaneously, forwarded to the Kemper over USB
+- MIDI-priority scanning — the Bluetooth scan surfaces MIDI-capable
+  devices first, so you're not digging through unrelated BLE devices
+- Bluetooth whitelist — register the specific device(s) you use so
+  only those connect, preventing other Bluetooth devices from
+  connecting by accident
+- Host mode support — the USB-A port can be handed off to a second
+  bi-directional device (this needs a power-capable OTG adapter)
 - WiFi song-config page for labeling banks/slots by song, same as the
   4.3" board's Song Mode
+- Song Mode multi-language support — song names can be shown in
+  Korean, accented Latin characters, and more (language support is
+  expanding)
 - Settings: brightness, Song Mode, effect-transition animations, and
   tuner Fine-Tune mode all toggle independently
 
