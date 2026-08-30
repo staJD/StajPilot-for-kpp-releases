@@ -32,13 +32,14 @@ Questions? DM on [Instagram](https://www.instagram.com/stajpilot) — answered a
 >
 > The Kemper Player unit itself has two lights per rig button: the light
 > built into the button, and a separate color LED above it (used for
-> bank identification). These two are meant to move completely
-> identically, or nearly simultaneously — keeping that sync as tight as
-> possible is a core StajPilot development goal. If a noticeable delay
+> bank identification). These two normally move completely identically,
+> or nearly simultaneously — keeping that sync as tight as possible is
+> a core StajPilot development goal. If a noticeable delay
 > shows up, it can be a sign the Kemper is already under heavy load. This
 > usually happens when too many requests are being sent to the Kemper,
-> or when the MIDI device isn't processing data fast enough. Kemper
-> themselves recommend avoiding polling during two-way communication. In
+> or when the MIDI device isn't processing data fast enough. Avoiding
+> polling during two-way communication is also generally recommended
+> practice. In
 > severe cases, the Kemper can throw a red-light error and freeze. If
 > you notice a noticeable delay while running StajPilot, please report
 > it.
