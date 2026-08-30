@@ -163,9 +163,14 @@ and flash offsets.
   doing so.
 - The back of the board is exposed - for now, a simple M2-standoff
   spacer and cover, 3D-printed in plastic, is enough to close it up. A
-  DXF drawing for a rear cover that fits will be provided. Korean
-  users can DM [Instagram](https://www.instagram.com/stajpilot) for a
-  free copy - a real acrylic cover, cut and ready to use, will also be
-  given away free to the first 20 people who reach out.
+  DXF drawing for a rear cover that fits will be provided - **this
+  giveaway is limited to residents of Korea** (regardless of
+  nationality - foreign residents are welcome too), for shipping
+  reasons. Apply via DM on [Instagram](https://www.instagram.com/stajpilot):
+  the drawing file is free for anyone who applies, and a real acrylic
+  cover, cut and ready to use, will also be given away free to the
+  first 20 Korea-based applicants.
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
+
+  <img src="images/acrylic-cover.png" alt="StajPilot laser-engraved acrylic rear cover (Korea-only giveaway)" width="420">
