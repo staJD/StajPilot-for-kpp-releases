@@ -53,6 +53,21 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 - Bluetooth MIDI support for wireless foot controllers - tested with 3x
   M-VAVE Chocolate pedals connected simultaneously, up to 5 supported
 
+> **⚠️ Caution**
+>
+> The Kemper Player unit itself has two lights per rig button: the light
+> built into the button, and a separate color LED above it (used for
+> bank identification). These two are meant to always change together,
+> in sync — keeping that sync as tight as possible is a core StajPilot
+> development goal. If the upper color LED lags behind the button's own
+> light, it can be a sign the Kemper is already under heavy load. This
+> usually happens when too many requests are being sent to the Kemper,
+> or when the MIDI device isn't processing data fast enough. Kemper
+> themselves recommend avoiding polling during two-way communication. In
+> severe cases, the Kemper can throw a red-light error and freeze. If
+> you notice the upper LED lagging behind the button light while running
+> StajPilot, please report it.
+
 ## MIDI communication with the Kemper Player
 
 StajPilot runs in the Kemper Player's bi-directional mode and relies as
@@ -179,7 +194,8 @@ The Kemper Profiler Player only knows about banks and slots - Song Mode
 is StajPilot's own addition, letting you label that same bank/slot
 structure by song instead. Turn on WiFi config mode from the device's
 Settings screen, connect your phone or computer to the `StajPilot` WiFi
-network it broadcasts, then open `192.168.4.1` in a web browser - a
+network it broadcasts (default password `12345678`, changeable from the
+web config page), then open `192.168.4.1` in a web browser - a
 computer's keyboard makes it a lot faster if you're entering a lot of
 songs at once. From there you can set
 song names, per-slot labels, and which amp art file to show for each

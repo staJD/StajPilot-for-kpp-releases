@@ -41,6 +41,32 @@ answered as soon as seen.
 - Settings: brightness, Song Mode, effect-transition animations, and
   tuner Fine-Tune mode all toggle independently
 
+> **⚠️ Caution / 주의**
+>
+> **KR:** 캠퍼 플레이어 본체는 버튼 자체에 들어오는 조명과, 그 위에 따로
+> 박혀있는 색상 LED(뱅크 식별용)를 함께 사용합니다. 이 둘은 항상 동기화되어
+> 같이 바뀌어야 합니다. 보다 동기화 되게 개발하는 것이 StajPilot의 기본
+> 개발 방향입니다. 위쪽 색상 LED가 버튼 조명보다 뒤늦게 따라온다면 이미
+> 캠퍼에 많은 부하가 걸리고 있다는 신호일 수 있습니다. 이는 캠퍼에게
+> 너무 많은 요청을 하거나, 미디 기기가 데이터를 빠르게 처리하지 못해서
+> 발생하는 현상입니다. 그들도 양방향 통신 중에는 폴링(polling)을 피하라고
+> 권고하고 있습니다. 심해지면 캠퍼가 빨간 불빛 에러를 내며 프리즈될 수
+> 있습니다. StajPilot 사용 중 위쪽 LED가 버튼 조명보다 늦게 따라오는 걸
+> 발견하시면 반드시 알려주세요.
+>
+> **EN:** The Kemper Player unit itself has two lights per rig button:
+> the light built into the button, and a separate color LED above it
+> (used for bank identification). These two are meant to always change
+> together, in sync — keeping that sync as tight as possible is a core
+> StajPilot development goal. If the upper color LED lags behind the
+> button's own light, it can be a sign the Kemper is already under heavy
+> load. This usually happens when too many requests are being sent to
+> the Kemper, or when the MIDI device isn't processing data fast enough.
+> Kemper themselves recommend avoiding polling during two-way
+> communication. In severe cases, the Kemper can throw a red-light error
+> and freeze. If you notice the upper LED lagging behind the button
+> light while running StajPilot, please report it.
+
 ## MIDI communication with the Kemper Player
 
 StajPilot runs in the Kemper Player's bi-directional mode and relies as
