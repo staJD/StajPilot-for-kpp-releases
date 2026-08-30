@@ -33,9 +33,9 @@ answered as soon as seen.
   and optionally switch the Kemper onto it directly
 - Morph — press the already-active slot again to trigger Morph instead
   of reloading the rig
-- Bluetooth MIDI central mode — up to 5 BLE MIDI foot controllers
-  forwarded to the Kemper over USB, with an optional MIDI-only scan
-  filter
+- Bluetooth MIDI central mode — up to 3 BLE MIDI foot controllers
+  connected simultaneously, forwarded to the Kemper over USB, with an
+  optional MIDI-only scan filter
 - WiFi song-config page for labeling banks/slots by song, same as the
   4.3" board's Song Mode
 - Settings: brightness, Song Mode, effect-transition animations, and
