@@ -160,7 +160,8 @@ and flash offsets.
 - 2" 320×240 touch LCD
 - The board's GPIO pins aren't used by StajPilot and can be removed if
   you don't need them - just be careful not to damage the board while
-  doing so.
+  doing so. You don't have to remove them, either - it's fine to leave
+  the pins in place and just mount the cover on M2 standoffs instead.
 - The back of the board is exposed - for now, a simple M2-standoff
   spacer and cover, 3D-printed in plastic, is enough to close it up. A
   DXF drawing for a rear cover that fits will be provided - **this
