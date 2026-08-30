@@ -1,7 +1,7 @@
 # StajPilot v0.95.00 — Waveshare ESP32-S3-Touch-LCD-2
 
-<a href="https://youtu.be/kLVWh-ry95s" target="_blank">
-  <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
+<a href="https://youtu.be/NQ-vY13o71A" target="_blank">
+  <img src="https://img.youtube.com/vi/NQ-vY13o71A/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
 </a>
 
 ## What's new in this version

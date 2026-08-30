@@ -2,11 +2,11 @@
 
 [Read in English](README.md)
 
-<a href="https://youtu.be/kLVWh-ry95s" target="_blank">
-  <img src="https://img.youtube.com/vi/kLVWh-ry95s/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
+<a href="https://youtu.be/NQ-vY13o71A" target="_blank">
+  <img src="https://img.youtube.com/vi/NQ-vY13o71A/maxresdefault.jpg" alt="StajPilot on the Waveshare ESP32-S3-Touch-LCD-2" width="480">
 </a>
 
-▶️ **[유튜브로 보기](https://youtu.be/kLVWh-ry95s)**
+▶️ **[유튜브로 보기](https://youtu.be/NQ-vY13o71A)**
 
 캠퍼 프로파일러 플레이어용 터치스크린 MIDI 컨트롤러이며, Waveshare
 ESP32-S3-Touch-LCD-2(2인치 320×240 터치 LCD) 보드로 만들어졌습니다.
