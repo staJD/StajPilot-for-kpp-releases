@@ -62,9 +62,8 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 > a core StajPilot development goal. If a noticeable delay
 > shows up, it can be a sign the Kemper is already under heavy load. This
 > usually happens when too many requests are being sent to the Kemper,
-> or when the MIDI device isn't processing data fast enough. Avoiding
-> polling during two-way communication is also generally recommended
-> practice. In
+> or when the MIDI device isn't processing data fast enough. They also
+> recommend avoiding polling during two-way communication. In
 > severe cases, the Kemper can throw a red-light error and freeze. If
 > you notice a noticeable delay while running StajPilot, please report
 > it.

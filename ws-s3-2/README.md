@@ -49,8 +49,8 @@ answered as soon as seen.
 > StajPilot의 기본 개발 방향입니다. 눈에 띄는 지연이 생길 경우 이미
 > 캠퍼에 많은 부하가 걸리고 있다는 신호일 수 있습니다. 이는 캠퍼에게
 > 너무 많은 요청을 하거나, 미디 기기가 데이터를 빠르게 처리하지 못해서
-> 발생하는 현상입니다. 양방향 통신 중에는 폴링(polling)을 피하는 것도
-> 일반적으로 권장되는 방식입니다. 심해지면 캠퍼가 빨간 불빛 에러를 내며 프리즈될 수
+> 발생하는 현상입니다. 그들도 양방향 통신 중에는 폴링(polling)을 피하라고
+> 권고하고 있습니다. 심해지면 캠퍼가 빨간 불빛 에러를 내며 프리즈될 수
 > 있습니다. StajPilot 사용 중 눈에 띄는 지연을 발견하시면 반드시
 > 알려주세요.
 >
@@ -62,8 +62,8 @@ answered as soon as seen.
 > noticeable delay shows up, it can be a sign the Kemper is already
 > under heavy load. This usually happens when too many requests are
 > being sent to the Kemper, or when the MIDI device isn't processing
-> data fast enough. Avoiding polling during two-way communication is
-> also generally recommended practice. In severe cases, the Kemper can throw a
+> data fast enough. They also recommend avoiding polling during
+> two-way communication. In severe cases, the Kemper can throw a
 > red-light error and freeze. If you notice a noticeable delay while
 > running StajPilot, please report it.
 
