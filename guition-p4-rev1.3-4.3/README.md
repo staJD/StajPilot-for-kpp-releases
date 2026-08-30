@@ -57,16 +57,16 @@ verified against the other Profiler models (Stage, PowerHead, Rack).
 >
 > The Kemper Player unit itself has two lights per rig button: the light
 > built into the button, and a separate color LED above it (used for
-> bank identification). These two are meant to always change together,
-> in sync — keeping that sync as tight as possible is a core StajPilot
-> development goal. If the upper color LED lags behind the button's own
-> light, it can be a sign the Kemper is already under heavy load. This
+> bank identification). These two are meant to move completely
+> identically, or nearly simultaneously — keeping that sync as tight as
+> possible is a core StajPilot development goal. If a noticeable delay
+> shows up, it can be a sign the Kemper is already under heavy load. This
 > usually happens when too many requests are being sent to the Kemper,
 > or when the MIDI device isn't processing data fast enough. Kemper
 > themselves recommend avoiding polling during two-way communication. In
 > severe cases, the Kemper can throw a red-light error and freeze. If
-> you notice the upper LED lagging behind the button light while running
-> StajPilot, please report it.
+> you notice a noticeable delay while running StajPilot, please report
+> it.
 
 ## MIDI communication with the Kemper Player
 
