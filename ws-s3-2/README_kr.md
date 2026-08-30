@@ -75,6 +75,8 @@ StajPilot을 저렴하고 부담 없이 처음 써보기 좋은 방법입니다.
 > 수 있습니다. StajPilot 사용 중 눈에 띄는 지연을 발견하시면 반드시
 > 알려주세요.
 
+▶ [관련 영상 보기](https://www.youtube.com/watch?v=99WDuJD7ZM0)
+
 ## 캠퍼 플레이어와의 MIDI 통신
 
 StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작하며,

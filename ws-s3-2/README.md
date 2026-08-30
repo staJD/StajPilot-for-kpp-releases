@@ -91,6 +91,8 @@ answered as soon as seen.
 > red-light error and freeze. If you notice a noticeable delay while
 > running StajPilot, please report it.
 
+▶ [Watch a video of this](https://www.youtube.com/watch?v=99WDuJD7ZM0)
+
 ## MIDI communication with the Kemper Player
 
 StajPilot runs in the Kemper Player's bi-directional mode and relies as
