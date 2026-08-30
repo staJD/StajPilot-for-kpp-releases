@@ -138,8 +138,12 @@ StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작�
 - Waveshare ESP32-S3-Touch-LCD-2
 - ESP32-S3, 네이티브 USB + 네이티브 블루투스 (별도 컴패니언 칩 불필요)
 - 2인치 320×240 터치 LCD
+- GPIO 핀은 StajPilot에서 사용하지 않으므로 필요 없으면 제거해도
+  무방합니다 — 다만 제거할 때 기기가 손상되지 않도록 주의하세요.
 - 보드 뒷면이 노출되어 있습니다 — 지금은 M2 스탠드오프 스페이서와
-  커버를 3D 프린트해서 막는 정도면 충분합니다. 레이저 커팅 아크릴
-  커버 도면도 준비 중이며 곧 제공될 예정입니다.
+  커버를 3D 프린트해서 막는 정도면 충분합니다. 뒷판에 맞는 커버 DXF
+  도면을 제공해 드립니다. 한국 사용자는 [인스타그램](https://www.instagram.com/stajpilot)
+  DM 주시면 무상으로 배포해 드리고, 실물 아크릴 커버도 선착순 20명
+  한정으로 무상 배포합니다.
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">

@@ -158,9 +158,14 @@ and flash offsets.
 - Waveshare ESP32-S3-Touch-LCD-2
 - ESP32-S3, native USB + native Bluetooth (no companion chip needed)
 - 2" 320×240 touch LCD
+- The board's GPIO pins aren't used by StajPilot and can be removed if
+  you don't need them - just be careful not to damage the board while
+  doing so.
 - The back of the board is exposed - for now, a simple M2-standoff
-  spacer and cover, 3D-printed in plastic, is enough to close it up.
-  Drawings for a laser-cut acrylic cover are planned and will be
-  provided soon.
+  spacer and cover, 3D-printed in plastic, is enough to close it up. A
+  DXF drawing for a rear cover that fits will be provided. Korean
+  users can DM [Instagram](https://www.instagram.com/stajpilot) for a
+  free copy - a real acrylic cover, cut and ready to use, will also be
+  given away free to the first 20 people who reach out.
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
