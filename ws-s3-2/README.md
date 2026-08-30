@@ -46,8 +46,9 @@ answered as soon as seen.
 > **KR:** 캠퍼 플레이어 본체는 버튼 자체에 들어오는 조명과, 그 위에 따로
 > 박혀있는 색상 LED(뱅크 식별용)를 함께 사용합니다. 이 둘은 원래 완전히
 > 동일하거나 거의 동시에 움직입니다. 보다 동기화 되게 개발하는 것이
-> StajPilot의 기본 개발 방향입니다. 눈에 띄는 지연이 생길 경우 이미
-> 캠퍼에 많은 부하가 걸리고 있다는 신호일 수 있습니다. 이는 캠퍼에게
+> StajPilot의 기본 개발 방향입니다. 눈에 띄는 지연이 생길 경우 캠퍼에
+> 많은 부하가 걸리고 있다는 신호이거나, 연결된 기기에서 신호를 처리하지
+> 못하는 병목의 신호일 수 있습니다. 이는 캠퍼에게
 > 너무 많은 요청을 하거나, 미디 기기가 데이터를 빠르게 처리하지 못해서
 > 발생하는 현상입니다. 그들도 양방향 통신 중에는 폴링(polling)을 피하라고
 > 권고하고 있습니다. 심해지면 캠퍼가 빨간 불빛 에러를 내며 프리즈될 수
@@ -60,8 +61,10 @@ answered as soon as seen.
 > identically, or nearly simultaneously — keeping that sync as tight
 > as possible is a core StajPilot development goal. If a
 > noticeable delay shows up, it can be a sign the Kemper is already
-> under heavy load. This usually happens when too many requests are
-> being sent to the Kemper, or when the MIDI device isn't processing
+> under heavy load, or a sign of a bottleneck where the connected
+> device can't keep up processing the signal. This usually happens
+> when too many requests are being sent to the Kemper, or when the
+> MIDI device isn't processing
 > data fast enough. They also recommend avoiding polling during
 > two-way communication. In severe cases, the Kemper can throw a
 > red-light error and freeze. If you notice a noticeable delay while
