@@ -146,13 +146,13 @@ StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작�
   커버만 달아서 활용하셔도 됩니다.
 - 보드 뒷면이 노출되어 있습니다 — 지금은 M2 스탠드오프 스페이서와
   커버를 3D 프린트해서 막는 정도면 충분합니다. 뒷판에 맞는 커버 DXF
-  도면을 제공해 드립니다 — **한국 거주자 한정입니다** (배송 문제로
+  도면을 제공해 드립니다 —
+  **한국 거주자 한정입니다** (배송 문제로
   국적과 무관하게 한국에 거주하시는 분이면 외국인도 가능합니다).
   [인스타그램](https://www.instagram.com/stajpilot) DM으로 신청해
-  주세요. 도면 파일은 무상으로 배포해 드리고, 실물 아크릴 커버도
-  준비되어 있어 선착순 20명에게 무상으로 배포합니다 — M2 스탠드오프와
-  나사도 포함됩니다.
+  주세요. 제 아크릴 커버를 주문하면서 많은분들이 부담없이 쓰시면 좋겠다는 생각에
+  몇개 더 주문하였습니다. 무료로 제공해드립니다.  M2 스탠드오프와 나사도 포함됩니다.
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
 
-  <img src="images/acrylic-cover.png" alt="StajPilot 레이저 각인 아크릴 커버 (한국 거주자 한정 배포)" width="420">
+  <img src="images/acrylic-cover.png" alt="StajPilot 레이저 각인 아크릴 커버 (한국 거주자 한정 20명 무료)" width="420">
