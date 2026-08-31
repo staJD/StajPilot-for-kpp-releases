@@ -53,7 +53,7 @@ Questions? DM on [Instagram](https://www.instagram.com/stajpilot) — answered a
 > processing data fast enough. They also recommend avoiding polling
 > during two-way communication. In severe cases, the Kemper can throw
 > a red-light error and freeze. If you notice a noticeable delay while
-> running StajPilot, please report it.
+> running StajPilot, report it.
 
 
 ## Why "stajPilot"
