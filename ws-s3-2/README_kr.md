@@ -152,7 +152,7 @@ StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작�
   [인스타그램](https://www.instagram.com/stajpilot) DM으로 신청해
   주세요. 제 아크릴 커버를 주문하면서 많은분들이 부담없이 쓰시면 좋겠다는 생각에
   몇개 더 주문하였습니다.수량한정 무료로 제공해드립니다.  M2 스탠드오프와 나사도 포함됩니다.
-  **한국 거주자 한정입니다** (배송 문제로
+  **한국 거주자 한정입니다.택배착불** (배송 문제로
   국적과 무관하게 한국에 거주하시는 분이면 외국인도 가능합니다).
 
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
