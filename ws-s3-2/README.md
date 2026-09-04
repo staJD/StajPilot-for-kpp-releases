@@ -177,3 +177,64 @@ and flash offsets.
   <img src="images/board-back-dimensions.png" alt="Board back and mounting hole dimensions" width="420">
 
   <img src="images/acrylic-cover.png" alt="StajPilot laser-engraved acrylic rear cover (Korea-only giveaway)" width="420">
+
+## Support StajPilot
+
+Keeping up with Kemper updates, building new boards, adding fun features —
+StajPilot needs continued work to keep growing. Support is what drives that
+forward. I'll keep taking on creative projects that musicians actually need.
+
+### ☕ Support on Ko-fi
+
+<a href='https://ko-fi.com/stajd' target='_blank'>
+  <img height='56' style='border:0px;height:56px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Support me on ko-fi.com' />
+</a>
+
+The name comes from "coffee" — the idea of buying someone a coffee as a
+small, casual way to say thanks. It's a well-known creator-support platform
+(since 2011), no account needed, just a card or PayPal, and completely
+separate from installing/using StajPilot.
+
+
+## LICENSE
+This software (including any distributed binaries, the "Software") is licensed under the following terms.
+1. **Personal / Non-Commercial Use**
+   Personal, non-commercial use — including downloading, installing, and running the Software — is
+   permitted freely without prior permission. Connecting the hardware to other devices or
+   customizing it for your own personal use is also freely permitted without prior permission.
+   (Selling or distributing such customized hardware, however, is subject to Section 3 below.)
+
+2. **Commercial Use**
+   Any commercial use, including but not limited to use by a company or organization, redistribution,
+   or incorporation into a commercial product, should be discussed with the author in advance.
+
+3. **Prohibition on Hardware Productization **
+   Regardless of whether the activity is otherwise commercial, the following acts require the
+   author's prior consent:
+
+   a. Uploading the Software (including the distributed binary) onto hardware and selling,
+      distributing, or otherwise commercializing that hardware as a finished or semi-finished
+      product.
+
+   b. Combining hardware running the Software with any additional device (including but not
+      limited to enclosures, circuits, sensors, or accessories) into a single product, and selling,
+      distributing, or otherwise commercializing that combined product.
+
+   c. Performing, outsourcing, or commissioning (including OEM/ODM arrangements) any of the acts
+      described in (a) or (b) above.
+
+   The above acts are considered "commercial use" under this license and should be discussed with
+   the author in advance.
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. UNDER NO
+CIRCUMSTANCES SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES (INCLUDING BUT NOT LIMITED TO
+DIRECT, INDIRECT, OR INCIDENTAL DAMAGES), OR OTHER LIABILITY ARISING FROM THE USE, INSTALLATION,
+OR MODIFICATION OF THE SOFTWARE, OR FROM THE MANUFACTURE OR USE OF ANY HARDWARE INCORPORATING IT.
+
+
+## Contact
+
+Please open a GitHub Issue, and we'll proceed with further discussion from there.
+For quick questions, DM on [Instagram](https://www.instagram.com/stajpilot) — answered as soon as seen.
