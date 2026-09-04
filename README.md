@@ -39,8 +39,7 @@ Questions? DM on [Instagram](https://www.instagram.com/stajpilot) — answered a
 > 하거나, 미디 기기가 데이터를 빠르게 처리하지 못해서 발생하는
 > 현상입니다. 그들도 양방향 통신 중에는 폴링(polling)을 피하라고
 > 권고하고 있습니다. 심해지면 캠퍼가 빨간 불빛 에러를 내며 프리즈될 수
-> 있습니다. StajPilot 사용 중 눈에 띄는 지연을 발견하시면 반드시
-> 알려주세요.
+> 있습니다. StajPilot 사용 중 눈에 띄는 지연을 발견하시면 알려주세요.
 >
 > **EN:** The Kemper Player unit itself has two lights per rig button:
 > the light built into the button, and a separate color LED above it
@@ -54,7 +53,7 @@ Questions? DM on [Instagram](https://www.instagram.com/stajpilot) — answered a
 > processing data fast enough. They also recommend avoiding polling
 > during two-way communication. In severe cases, the Kemper can throw
 > a red-light error and freeze. If you notice a noticeable delay while
-> running StajPilot, please report it.
+> running StajPilot, report it.
 
 
 ## Why "stajPilot"
