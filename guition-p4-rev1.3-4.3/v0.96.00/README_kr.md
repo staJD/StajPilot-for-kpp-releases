@@ -1,9 +1,7 @@
-# StajPilot v0.96.00-beta — Guition JC4880P443C_I_W
+# StajPilot v0.96.00 — Guition JC4880P443C_I_W
 
-**이건 베타 버전입니다.** 현재 안정 버전인 [v0.95.00](../v0.95.00)보다 최신이지만
-검증은 덜 됐습니다. 이번 버전의 핵심 신기능인 USB 호스트 모드는 이 프로젝트에서
-완전히 새로운 하드웨어/펌웨어 영역입니다 — 필요하지 않다면 지금은 v0.95.00을
-쓰는 게 더 안전합니다.
+**이 릴리즈는 [v0.96.01](../v0.96.01)로 대체되었습니다** - 이제 v0.96.01이
+현재 안정 버전입니다. 이 폴더는 참고/롤백용으로만 남아있습니다.
 
 ## 이번 버전에서 달라진 점
 
@@ -60,7 +58,7 @@
   사용하면서 화면으로 위치를 직접 확인하고 싶은 경우가 아니라면 **None**으로
   두는 걸 권장합니다. 
 
-## 알려진 제한사항 (베타 한정)
+## 알려진 제한사항
 
 - USB 호스트 모드는 새로 추가된 기능이라, 기존 v0.95.00부터 변경 없이 그대로
   작동하는 Device 모드 켐퍼 연결에 비해 실사용 검증이 상대적으로 부족합니다.
@@ -72,28 +70,25 @@
 
 ## 파일
 
-- `stajpilot_v0.96.00-beta_JC4880P443C_I_W_update_firmware.bin` — 앱만
+- `stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin` — 앱만
   업데이트합니다. 이미 정상 작동하는 기기가 있다면 이걸 사용하세요 — 곡 목록,
   WiFi 설정 등 저장된 내용이 그대로 유지됩니다.
-- `stajpilot_v0.96.00-beta_JC4880P443C_I_W_factory_merged.bin` — 전체 이미지
+- `stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin` — 전체 이미지
   (부트로더 + 파티션 테이블 + 앱). 최초 설치나 완전 복구 시에만 사용하세요 —
   **저장된 곡/WiFi 설정이 모두 지워집니다.**
 
 ## 설치 방법
 
-**가장 쉬운 방법: 브라우저에서 바로 플래시** — 별도 소프트웨어 설치 없이,
-데스크톱 컴퓨터의 Chrome 또는 Edge에서 진행할 수 있습니다:
-
-### 👉 [stajd.github.io](https://stajd.github.io/)
-
-목록에서 "Guition JC4880P4 (BETA)"를 선택하고 화면에 나오는 안내를 따라가세요 —
-보드를 업로드 모드로 진입시키는 방법까지 전부 안내됩니다.
+이 버전은 브라우저 플래셔([stajd.github.io](https://stajd.github.io/))에서
+더 이상 제공되지 않습니다 - 그 사이트는 항상 현재 안정 버전(현재 기준
+[v0.96.01](../v0.96.01))만 제공합니다. 이 예전 버전을 굳이 설치하시려면
+아래 `esptool.py` 명령으로 직접 플래시하세요.
 
 ## 플래시: 일반 업데이트 (곡/WiFi 설정 유지)
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.96.00-beta_JC4880P443C_I_W_update_firmware.bin
+  write_flash 0x10000 stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin
 ```
 
 플래시 오프셋 `0x10000`. 파티션 테이블을 쓰지 않고, SPIFFS/NVS도 포맷하지 않습니다.
@@ -102,7 +97,7 @@ esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.96.00-beta_JC4880P443C_I_W_factory_merged.bin
+  write_flash 0x0 stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin
 ```
 
 플래시 오프셋 `0x0`. 부트로더는 `0x2000`, 파티션 테이블은 `0x8000`, 앱은

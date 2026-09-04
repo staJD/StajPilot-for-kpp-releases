@@ -6,10 +6,10 @@
 > version, binaries below reflect this fix.
 
 This is now the current stable release, replacing v0.95.00. It carries
-everything from the v0.96.00-beta/v0.96.01-beta cycle, including USB Host
+everything from the v0.96.00/v0.96.01 beta cycle, including USB Host
 mode - see "Known limitations" below for that feature's current maturity.
 
-## What's new since v0.96.00-beta
+## What's new since v0.96.00
 
 - **DEVICE → HOST is now two-way** — a downstream MIDI device connected to
   the Host port can send data back, and it's now forwarded straight
@@ -39,9 +39,9 @@ mode - see "Known limitations" below for that feature's current maturity.
   the Settings button fills in with one segment per currently connected
   BLE MIDI device.
 
-## What's new in v0.96.00-beta (still included)
+## What's new in v0.96.00 (still included)
 
-Everything below has accumulated since v0.95.00 - this beta is the first
+Everything below has accumulated since v0.95.00 - v0.96.00 was the first
 public build to include any of it.
 
 - **Swipe to change bank** — swipe left/right anywhere from the rig

@@ -1,13 +1,11 @@
-# StajPilot v0.96.00-beta — Guition JC4880P443C_I_W
+# StajPilot v0.96.00 — Guition JC4880P443C_I_W
 
-**This is a BETA.** It's newer and less battle-tested than the current
-stable release ([v0.95.00](../v0.95.00)). The headline new feature (USB
-Host mode) is genuinely new hardware/firmware territory for this project —
-if you don't need it, staying on v0.95.00 is the safer choice for now.
+**This release has been superseded by [v0.96.01](../v0.96.01)**, now the
+current stable release. Kept here for reference / rollback only.
 
 ## What's new in this version
 
-Everything below has accumulated since v0.95.00 - this beta is the first
+Everything below has accumulated since v0.95.00 - this was the first
 public build to include any of it.
 
 - **Swipe to change bank (new)** — swipe left/right anywhere from the rig
@@ -61,7 +59,7 @@ public build to include any of it.
   polling. Unless you actually use the morph pedal and want to watch its
   position on screen, we'd recommend setting this to **None**.
 
-## Known limitations (beta-specific)
+## Known limitations
 
 - USB Host mode is new and has had comparatively little real-world testing
   compared to the existing Device-mode Kemper connection, which is
@@ -75,29 +73,26 @@ public build to include any of it.
 
 ## Files
 
-- `stajpilot_v0.96.00-beta_JC4880P443C_I_W_update_firmware.bin` — app-only
+- `stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin` — app-only
   update. Use this if you already have a working install - keeps your
   song list, WiFi settings, and other saved config.
-- `stajpilot_v0.96.00-beta_JC4880P443C_I_W_factory_merged.bin` — full
+- `stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin` — full
   image (bootloader + partition table + app). Use this only for a first
   install or a full recovery - **this wipes saved song/WiFi config.**
 
 ## Installing
 
-**Easiest: flash from your browser** — no software to install, works in
-Chrome or Edge on a desktop computer:
-
-### 👉 [stajd.github.io](https://stajd.github.io/)
-
-Pick "Guition JC4880P4 (BETA)" from the list there and follow the on-page
-steps — they cover everything, including putting the board into upload
-mode.
+This version is no longer offered on the browser flasher
+([stajd.github.io](https://stajd.github.io/)) - that always serves the
+current stable release ([v0.96.01](../v0.96.01) as of this writing). To
+install this specific older version, flash the binaries below manually
+with `esptool.py` (see below).
 
 ## Flashing: normal update (preserves song/WiFi config)
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.96.00-beta_JC4880P443C_I_W_update_firmware.bin
+  write_flash 0x10000 stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin
 ```
 
 Flash offset `0x10000`. Does not write the partition table, does not
@@ -107,7 +102,7 @@ format SPIFFS/NVS.
 
 ```
 esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.96.00-beta_JC4880P443C_I_W_factory_merged.bin
+  write_flash 0x0 stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin
 ```
 
 Flash offset `0x0`. Bootloader at `0x2000`, partition table at `0x8000`,
