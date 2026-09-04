@@ -45,11 +45,11 @@ below, staying on v0.96.01 is the safer choice for now.
 **Easiest: flash from your browser** — no software to install, works in
 Chrome or Edge on a desktop computer:
 
-### 👉 [stajd.github.io](https://stajd.github.io/)
+### 👉 [stajd.github.io](https://stajd.github.io/#guition-jc4880p4-beta)
 
-Pick "Guition JC4880P4 (BETA)" from the list there and follow the on-page
-steps — they cover everything, including putting the board into upload
-mode.
+That link opens directly on "Guition JC4880P4 (BETA)" - follow the
+on-page steps, they cover everything including putting the board into
+upload mode.
 
 ## Flashing: normal update (preserves song/WiFi config)
 

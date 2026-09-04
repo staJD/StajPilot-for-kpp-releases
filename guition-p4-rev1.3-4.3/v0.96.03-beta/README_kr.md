@@ -43,10 +43,10 @@
 **가장 쉬운 방법: 브라우저에서 바로 플래시** — 별도 소프트웨어 설치 없이,
 데스크톱 컴퓨터의 Chrome 또는 Edge에서 진행할 수 있습니다:
 
-### 👉 [stajd.github.io](https://stajd.github.io/)
+### 👉 [stajd.github.io](https://stajd.github.io/#guition-jc4880p4-beta)
 
-목록에서 "Guition JC4880P4 (BETA)"를 선택하고 화면에 나오는 안내를 따라가세요 —
-보드를 업로드 모드로 진입시키는 방법까지 전부 안내됩니다.
+이 링크는 "Guition JC4880P4 (BETA)"로 바로 열립니다 - 화면에 나오는 안내를
+따라가세요, 보드를 업로드 모드로 진입시키는 방법까지 전부 안내됩니다.
 
 ## 플래시: 일반 업데이트 (곡/WiFi 설정 유지)
 
