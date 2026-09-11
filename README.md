@@ -80,6 +80,17 @@ feature details for that specific device.
 > the end means the case is included, no `_Y` means bare board only —
 > see the [board page](guition-p4-rev1.3-4.3/) for details.
 
+> [!WARNING]
+> **Rev3.2 shipments are coming soon.** I've heard sellers will soon
+> start shipping **rev3.2** boards instead of rev1.3. If you're about
+> to install the current release, please confirm with the seller that
+> your board is **rev1.3** first — if you can't confirm that, please
+> hold off for now.
+>
+> I'll test rev3.2 as soon as I can get a unit in hand. I expect
+> StajPilot should be able to support rev3.2 too, but since I don't
+> have the hardware yet, I can't promise that.
+
 ## Installing
 
 **Easiest way: flash straight from your browser** — no software to

@@ -29,6 +29,17 @@ itself costs around **$30**.
 > **`_Y`** version — and double-check the case-included option on the
 > product listing before you order.
 
+> [!WARNING]
+> **Rev3.2 shipments are coming soon.** I've heard sellers will soon
+> start shipping **rev3.2** boards instead of rev1.3. If you're about
+> to install the current release, please confirm with the seller that
+> your board is **rev1.3** first — if you can't confirm that, please
+> hold off for now.
+>
+> I'll test rev3.2 as soon as I can get a unit in hand. I expect
+> StajPilot should be able to support rev3.2 too, but since I don't
+> have the hardware yet, I can't promise that.
+
 Currently only tested against the Kemper Profiler **Player LV3** - not
 verified against the other Profiler models (Stage, PowerHead, Rack).
 
