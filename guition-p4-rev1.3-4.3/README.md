@@ -2,6 +2,17 @@
 
 [한국어로 보기](README_kr.md)
 
+> [!CAUTION]
+> **Guition P4 (4.3"): please don't buy this board for StajPilot right now.**
+>
+> I've heard sellers are switching to shipping **rev3.2** boards, which use a
+> newer ESP32-P4 chip revision (v3.x). The current StajPilot firmware is built
+> for **rev1.3** only, and Espressif states that v1.x and v3.x chips cannot run
+> the same firmware.
+>
+> Once I get a rev3.2 board, I'll post a new notice here. That will take **at
+> least a month**, and I can't promise rev3.2 support.
+
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
 </a>
@@ -29,16 +40,6 @@ itself costs around **$30**.
 > **`_Y`** version — and double-check the case-included option on the
 > product listing before you order.
 
-> [!WARNING]
-> **Rev3.2 shipments are coming soon.** I've heard sellers will soon
-> start shipping **rev3.2** boards instead of rev1.3. If you're about
-> to install the current release, please confirm with the seller that
-> your board is **rev1.3** first — if you can't confirm that, please
-> hold off for now.
->
-> I'll test rev3.2 as soon as I can get a unit in hand. I expect
-> StajPilot should be able to support rev3.2 too, but since I don't
-> have the hardware yet, I can't promise that.
 
 Currently only tested against the Kemper Profiler **Player LV3** - not
 verified against the other Profiler models (Stage, PowerHead, Rack).

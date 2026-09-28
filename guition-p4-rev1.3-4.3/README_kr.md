@@ -2,6 +2,16 @@
 
 [Read in English](README.md)
 
+> [!CAUTION]
+> **Guition P4(4.3인치) 보드는 지금은 구매를 멈춰 주세요.**
+>
+> 판매처에서 **rev3.2** 보드로 대체 발송되고 있다고 합니다. rev3.2에는 새로운
+> ESP32-P4 칩 리비전(v3.x)이 들어가는데, 현재 StajPilot 펌웨어는 **rev1.3**
+> 전용이며, Espressif에 따르면 v1.x와 v3.x 칩은 같은 펌웨어를 쓸 수 없습니다.
+>
+> rev3.2 보드를 구하게 되면 여기에 다시 공지하겠습니다. **최소 한 달 이상**
+> 걸리며, rev3.2 지원은 장담할 수 없습니다.
+
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot" width="480">
 </a>
@@ -26,14 +36,6 @@ WiFi와 블루투스도 별도의 컴패니언 칩(ESP32-C6)으로 내장되어 
 > 구하실 게 아니라면 **`_Y`** 버전을 구매하시고, 주문 전에 상품 페이지에서
 > 케이스 포함 옵션을 다시 한번 확인하세요.
 
-> [!WARNING]
-> 곧 rev3.2로 대체 발송된다고 합니다.
->
-> 현재 버전을 설치하실 분은 rev1.3 여부를 반드시 확인하시고, 확인이 불가할 경우 잠시 기다려 주시기 바랍니다.
->
-> 제가 rev3.2를 빠른 시간 내에 테스트해 보겠습니다.
->
-> rev3.2용으로도 개발 가능할 것이라 예상되지만, 아직 기기를 받지 못해 확답은 어렵습니다.
 
 현재는 캠퍼 프로파일러 **Player LV3**에서만 테스트되었습니다 - 다른
 프로파일러 모델(Stage, PowerHead, Rack)에서는 검증되지 않았습니다.

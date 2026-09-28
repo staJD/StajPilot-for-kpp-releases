@@ -1,5 +1,16 @@
 # StajPilot v0.96.00 — Guition JC4880P443C_I_W
 
+> [!CAUTION]
+> **Guition P4 (4.3"): please don't buy this board for StajPilot right now.**
+>
+> I've heard sellers are switching to shipping **rev3.2** boards, which use a
+> newer ESP32-P4 chip revision (v3.x). The current StajPilot firmware is built
+> for **rev1.3** only, and Espressif states that v1.x and v3.x chips cannot run
+> the same firmware.
+>
+> Once I get a rev3.2 board, I'll post a new notice here. That will take **at
+> least a month**, and I can't promise rev3.2 support.
+
 **This release has been superseded by [v0.96.01](../v0.96.01)**, now the
 current stable release. Kept here for reference / rollback only.
 

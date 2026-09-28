@@ -2,6 +2,20 @@
 
 [한국어로 보기](README_kr.md)
 
+> [!CAUTION]
+> **Guition P4 (4.3"): please don't buy this board for StajPilot right now.**
+>
+> I've heard sellers are switching to shipping **rev3.2** boards, which use a
+> newer ESP32-P4 chip revision (v3.x). The current StajPilot firmware is built
+> for **rev1.3** only, and Espressif states that v1.x and v3.x chips cannot run
+> the same firmware.
+>
+> Once I get a rev3.2 board, I'll post a new notice here. That will take **at
+> least a month**, and I can't promise rev3.2 support.
+>
+> The **2" [Waveshare ESP32-S3-Touch-LCD-2](ws-s3-2/)** is not affected — it's
+> available to buy and use now.
+
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
 </a>
@@ -80,16 +94,6 @@ feature details for that specific device.
 > the end means the case is included, no `_Y` means bare board only —
 > see the [board page](guition-p4-rev1.3-4.3/) for details.
 
-> [!WARNING]
-> **Rev3.2 shipments are coming soon.** I've heard sellers will soon
-> start shipping **rev3.2** boards instead of rev1.3. If you're about
-> to install the current release, please confirm with the seller that
-> your board is **rev1.3** first — if you can't confirm that, please
-> hold off for now.
->
-> I'll test rev3.2 as soon as I can get a unit in hand. I expect
-> StajPilot should be able to support rev3.2 too, but since I don't
-> have the hardware yet, I can't promise that.
 
 ## Installing
 

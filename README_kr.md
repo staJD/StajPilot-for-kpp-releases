@@ -2,6 +2,19 @@
 
 [Read in English](README.md)
 
+> [!CAUTION]
+> **Guition P4(4.3인치) 보드는 지금은 구매를 멈춰 주세요.**
+>
+> 판매처에서 **rev3.2** 보드로 대체 발송되고 있다고 합니다. rev3.2에는 새로운
+> ESP32-P4 칩 리비전(v3.x)이 들어가는데, 현재 StajPilot 펌웨어는 **rev1.3**
+> 전용이며, Espressif에 따르면 v1.x와 v3.x 칩은 같은 펌웨어를 쓸 수 없습니다.
+>
+> rev3.2 보드를 구하게 되면 여기에 다시 공지하겠습니다. **최소 한 달 이상**
+> 걸리며, rev3.2 지원은 장담할 수 없습니다.
+>
+> **2인치 [Waveshare ESP32-S3-Touch-LCD-2](ws-s3-2/)**는 해당되지 않으며, 지금
+> 구매 및 사용 가능합니다.
+
 <a href="https://www.youtube.com/watch?v=ZbDjtYzA_fI" target="_blank">
   <img src="https://img.youtube.com/vi/ZbDjtYzA_fI/maxresdefault.jpg" alt="StajPilot on the Guition JC4880P4" width="480">
 </a>
@@ -67,14 +80,6 @@
 > 붙으면 케이스 포함, 안 붙으면 보드만 — 자세한 내용은
 > [보드 페이지](guition-p4-rev1.3-4.3/)를 참고하세요.
 
-> [!WARNING]
-> 곧 rev3.2로 대체 발송된다고 합니다.
->
-> 현재 버전을 설치하실 분은 rev1.3 여부를 반드시 확인하시고, 확인이 불가할 경우 잠시 기다려 주시기 바랍니다.
->
-> 제가 rev3.2를 빠른 시간 내에 테스트해 보겠습니다.
->
-> rev3.2용으로도 개발 가능할 것이라 예상되지만, 아직 기기를 받지 못해 확답은 어렵습니다.
 
 ## 설치하기
 
