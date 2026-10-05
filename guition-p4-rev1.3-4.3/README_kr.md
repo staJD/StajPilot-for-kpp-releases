@@ -130,50 +130,6 @@ StajPilot은 캠퍼 플레이어의 양방향(bi-directional) 모드로 동작�
 7. 위쪽(PC) 포트에서 케이블을 뽑고, 아래쪽(캠퍼) 포트를 평소처럼
    캠퍼에 연결하세요 — 그러면 새 펌웨어로 실행이 시작됩니다.
 
-### esptool로 수동 설치
-
-명령줄에서 직접 플래시하고 싶으시다면:
-
-1. [esptool](https://github.com/espressif/esptool) 설치:
-   `pip install esptool`.
-2. 이 보드용 최신 릴리즈를
-   [Releases](../../../releases) 페이지에서 받으세요(태그명
-   `VX.XX.XX_stajPilot(JC4880P443C_I_W)`). 각 릴리즈에는:
-   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin` — 앱만
-     업데이트. 이미 작동 중인 설치본이 있고 새 버전만 원할 때 사용 -
-     곡 목록, WiFi 설정, 기타 저장된 설정을 유지합니다.
-   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin` — 전체
-     이미지(부트로더 + 파티션 테이블 + 앱). 처음 설치하거나 완전
-     복구할 때만 사용하세요 - **저장된 곡/WiFi 설정이 지워집니다.**
-3. 보드를 업로드 모드로 진입시키기: USB 케이블을 뽑고, **BOOT** 버튼을
-   누른 채로, 케이블을 **위쪽** USB-C 포트에 다시 꽂으세요(아래쪽
-   포트는 캠퍼 연결용이라 플래싱용이 아닙니다 - 아래 사진 참고). 화면이
-   **까맣게(빈 화면)** 바뀌어야 성공한 것입니다. BOOT를 2초 정도 더
-   누르고 있다가 손을 떼세요.
-
-   <img src="images/buttons.jpg" alt="BOOT and RESET buttons" width="260">
-   <img src="images/ports.jpg" alt="PC vs Kemper USB-C ports" width="260">
-
-4. 보드의 시리얼 포트 확인: Mac에서는 `/dev/cu.usbmodem83101`처럼,
-   Windows에서는 `COM3`, `COM4` 등으로 표시됩니다(확실하지 않다면
-   보드를 뽑아서 `esptool.py --port` 자동탐지나 OS의 장치 목록에서
-   사라지는 포트를 확인하세요.)
-5. 그 포트로 `<PORT>`를 바꿔서 아래 명령어를 실행하세요:
-
-   **일반 업데이트** (곡 목록/WiFi 설정 유지):
-   ```
-   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-     write_flash 0x10000 stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin
-   ```
-
-   **초기 설치 / 복구** (처음 설치하거나 완전 초기화):
-   ```
-   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-     write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
-   ```
-6. **위쪽(PC)** 포트에서 케이블을 뽑고, **아래쪽(캠퍼)** 포트를 평소처럼
-   캠퍼에 연결하세요 — 그러면 새 펌웨어로 실행이 시작됩니다.
-
 각 릴리즈 노트에 그 버전에서 바뀐 내용이 설명되어 있습니다.
 
 ## 하드웨어

@@ -154,55 +154,6 @@ Pick "Guition JC4880P4" from the list, then:
    (Kemper) port to your Kemper as normal — that's how you start
    running the new firmware.
 
-### Manual install with esptool
-
-If you'd rather flash it yourself from the command line:
-
-1. Install [esptool](https://github.com/espressif/esptool):
-   `pip install esptool`.
-2. Grab the latest release for this board from the
-   [Releases](../../../releases) page (tagged
-   `VX.XX.XX_stajPilot(JC4880P443C_I_W)`). Each release includes:
-   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin` — app-only
-     update. Use this if you already have a working install and just
-     want the new version - keeps your song list, WiFi settings, and
-     other saved config.
-   - `stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin` — full
-     image (bootloader + partition table + app). Use this only for a
-     first install or a full recovery - **this wipes saved song/WiFi
-     config.**
-3. Put the board into upload mode: unplug the USB cable, press and hold
-   the **BOOT** button, then plug the cable back into the **top** USB-C
-   port while still holding it (the bottom port is for the Kemper
-   connection, not flashing — see photos below). The screen should turn
-   **blank/black** — that's the sign it worked. Keep holding BOOT about
-   2 more seconds, then release it.
-
-   <img src="images/buttons.jpg" alt="BOOT and RESET buttons" width="260">
-   <img src="images/ports.jpg" alt="PC vs Kemper USB-C ports" width="260">
-
-4. Find the board's serial port: on Mac it's something like
-   `/dev/cu.usbmodem83101`; on Windows it's `COM3`, `COM4`, etc. (If
-   you're not sure which, unplug the board and see which port
-   disappears from `esptool.py --port` autodetect or your OS's device
-   list.)
-5. Run the matching command below, with `<PORT>` replaced by that port:
-
-   **Normal update** (keeps your song list/WiFi config):
-   ```
-   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-     write_flash 0x10000 stajpilot_vX.XX.XX_JC4880P443C_I_W_update_firmware.bin
-   ```
-
-   **Factory install / recovery** (first install, or full reset):
-   ```
-   esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-     write_flash 0x0 stajpilot_vX.XX.XX_JC4880P443C_I_W_factory_merged.bin
-   ```
-6. Unplug the cable from the **top (PC)** port, then connect the
-   **bottom (Kemper)** port to your Kemper as normal — that's how you
-   start running the new firmware.
-
 Each release's notes describe what changed in that version.
 
 ## Hardware

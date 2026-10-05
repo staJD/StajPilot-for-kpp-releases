@@ -43,16 +43,6 @@
 - `stajpilot.local` (mDNS) doesn't reliably resolve on this board yet -
   use the direct IP `192.168.4.1` for the WiFi config page instead.
 
-## Files
-
-- `stajpilot_v0.95.00_JC4880P443C_I_W_update_firmware.bin` — app-only
-  update. Use this if you already have a working install - keeps your
-  song list, WiFi settings, and other saved config.
-- `stajpilot_v0.95.00_JC4880P443C_I_W_factory_merged.bin` — full image
-  (bootloader + partition table + app). Use this only for a first
-  install or a full recovery - **this wipes saved song/WiFi config.**
-
-
 ## Installing
 
 **Easiest: flash from your browser** — no software to install, works in
@@ -63,24 +53,3 @@ Chrome or Edge on a desktop computer:
 Pick "Guition JC4880P4" from the list there and follow the on-page
 steps — they cover everything, including putting the board into upload
 mode.
-
-
-## Flashing: normal update (preserves song/WiFi config)
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.95.00_JC4880P443C_I_W_update_firmware.bin
-```
-
-Flash offset `0x10000`. Does not write the partition table, does not
-format SPIFFS/NVS.
-
-## Flashing: factory install / recovery (wipes SPIFFS + NVS)
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.95.00_JC4880P443C_I_W_factory_merged.bin
-```
-
-Flash offset `0x0`. Bootloader at `0x2000`, partition table at `0x8000`,
-app at `0x10000`, merged into one image. Only for first install/recovery.

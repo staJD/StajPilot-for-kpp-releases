@@ -78,37 +78,8 @@
 - HOST 모드는 MIDI 클래스 USB 기기를 인식하는 방식이며, 개발 중 사용 가능했던
   기기 외의 모든 USB MIDI 기기로 테스트되지는 않았습니다.
 
-## 파일
-
-- `stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin` — 앱만
-  업데이트합니다. 이미 정상 작동하는 기기가 있다면 이걸 사용하세요 — 곡 목록,
-  WiFi 설정 등 저장된 내용이 그대로 유지됩니다.
-- `stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin` — 전체 이미지
-  (부트로더 + 파티션 테이블 + 앱). 최초 설치나 완전 복구 시에만 사용하세요 —
-  **저장된 곡/WiFi 설정이 모두 지워집니다.**
-
 ## 설치 방법
 
 이 버전은 브라우저 플래셔([stajd.github.io](https://stajd.github.io/))에서
 더 이상 제공되지 않습니다 - 그 사이트는 항상 현재 안정 버전(현재 기준
-[v0.96.01](../v0.96.01))만 제공합니다. 이 예전 버전을 굳이 설치하시려면
-아래 `esptool.py` 명령으로 직접 플래시하세요.
-
-## 플래시: 일반 업데이트 (곡/WiFi 설정 유지)
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.96.00_JC4880P443C_I_W_update_firmware.bin
-```
-
-플래시 오프셋 `0x10000`. 파티션 테이블을 쓰지 않고, SPIFFS/NVS도 포맷하지 않습니다.
-
-## 플래시: 최초 설치 / 복구 (SPIFFS + NVS 초기화)
-
-```
-esptool.py --chip esp32p4 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.96.00_JC4880P443C_I_W_factory_merged.bin
-```
-
-플래시 오프셋 `0x0`. 부트로더는 `0x2000`, 파티션 테이블은 `0x8000`, 앱은
-`0x10000`에 위치하며 하나로 병합된 이미지입니다. 최초 설치/복구 시에만 사용하세요.
+[v0.96.01](../v0.96.01))만 제공합니다.

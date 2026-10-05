@@ -148,13 +148,6 @@ Pick "Waveshare ESP32-S3 2.0" from the list, then:
    as normal — this board only has one USB-C port, so the same cable
    and port used for flashing is also what connects to the Kemper.
 
-### Manual install with esptool
-
-If you'd rather flash it yourself from the command line, grab the
-latest release for this board from the [Releases](../../../releases)
-page and see that release's notes for the exact `esptool.py` commands
-and flash offsets.
-
 ## Hardware
 
 - Waveshare ESP32-S3-Touch-LCD-2

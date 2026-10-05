@@ -37,15 +37,6 @@
   device(s) you use, and MIDI-capable devices surface first in the
   scan list.
 
-## Files
-
-- `stajpilot_v0.95.00_WS_S3_2_update_firmware.bin` — app-only update.
-  Use this if you already have a working install - keeps your song
-  list, WiFi settings, and other saved config.
-- `stajpilot_v0.95.00_WS_S3_2_factory_merged.bin` — full image
-  (bootloader + partition table + app). Use this only for a first
-  install or a full recovery - **this wipes saved song/WiFi config.**
-
 ## Installing
 
 **Easiest: flash from your browser** — no software to install, works in
@@ -55,22 +46,3 @@ Chrome or Edge on a desktop computer:
 
 Pick "Waveshare ESP32-S3 2.0" from the list there and follow the
 on-page steps.
-
-### Manual install with esptool
-
-Normal update (preserves song/WiFi config):
-
-```
-esptool.py --chip esp32s3 --port <PORT> --baud 460800 \
-  write_flash 0x10000 stajpilot_v0.95.00_WS_S3_2_update_firmware.bin
-```
-
-Factory install / recovery (wipes SPIFFS + NVS):
-
-```
-esptool.py --chip esp32s3 --port <PORT> --baud 460800 \
-  write_flash 0x0 stajpilot_v0.95.00_WS_S3_2_factory_merged.bin
-```
-
-Flash offset `0x0`. Bootloader at `0x0`, partition table at `0x8000`,
-app at `0x10000`, merged into one image. Only for first install/recovery.
