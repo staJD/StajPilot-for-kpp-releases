@@ -169,6 +169,11 @@ This software (including any distributed binaries, the "Software") is licensed u
    The above acts are considered "commercial use" under this license and should be discussed with
    the author in advance.
 
+4. **No Redistribution of the Firmware**
+   Distributing the firmware (including the distributed binaries) separately is not permitted.
+   Both paid and free distribution are prohibited. Installing the firmware is permitted only
+   through the official StajPilot firmware site ([stajd.github.io](https://stajd.github.io/)).
+
 ## Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. UNDER NO
