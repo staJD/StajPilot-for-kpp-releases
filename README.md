@@ -10,6 +10,10 @@
 > for **rev1.3** only, and Espressif states that v1.x and v3.x chips cannot run
 > the same firmware.
 >
+> To prevent malfunctions on rev3.2 boards, Guition P4 firmware installation
+> on the firmware site ([stajd.github.io](https://stajd.github.io/)) is closed
+> for now.
+>
 > Once I get a rev3.2 board, I'll post a new notice here. That will take **at
 > least a month**, and I can't promise rev3.2 support.
 >
